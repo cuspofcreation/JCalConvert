@@ -1860,7 +1860,7 @@
         "Era name": "Tenshō",
         "Japanese": "天正",
         "Period": "Azuchi-Momoyama",
-        "Events": "1582 Nobunaga betrayed by Akechi Mitsuhide; Toyotomi Hideyoshi avenges Nobunaga's death, enters Osaka Castle in 1583. 1585 Hideyoshi becomes imperial regent (kanpaku).\n1592 After defeating the Go-Hōjō at Odawara in 1590, Hideyoshi invades Korea; truce reached in 1596."
+        "Events": "1582 Nobunaga betrayed by Akechi Mitsuhide; Toyotomi Hideyoshi avenges Nobunaga's death, enters Osaka Castle in 1583. 1585 Hideyoshi becomes imperial regent (kanpaku). 1592 After defeating the Go-Hōjō at Odawara in 1590, Hideyoshi invades Korea; truce reached in 1596."
     },
     "207": {
         "Dates (CE)": "1592.12 - 1596.10",
@@ -1878,7 +1878,7 @@
         "Era name": "Keichō",
         "Japanese": "慶長",
         "Period": "Edo (Tokugawa)",
-        "Events": "1597 Hideyoshi moves to Osaka Castle, orders second invasion of Korea. 1598 Hideyoshi dies and Japanese armies leave Korea.\n1600 Tokugawa Ieyasu wins victory in the Battle of Sekigahara, achieving military predominance; Edo (Tokugawa) Bakufu established in 1603.\n1615 Defeat of Toyotomi Hideyori at Osaka."
+        "Events": "1597 Hideyoshi moves to Osaka Castle, orders second invasion of Korea. 1598 Hideyoshi dies and Japanese armies leave Korea. 1600 Tokugawa Ieyasu wins victory in the Battle of Sekigahara, achieving military predominance; Edo (Tokugawa) Bakufu established in 1603. 1615 Defeat of Toyotomi Hideyori at Osaka."
     },
     "209": {
         "Dates (CE)": "1615.7 - 1624.2",
@@ -1896,7 +1896,7 @@
         "Era name": "Kan'ei",
         "Japanese": "寛永",
         "Period": "Edo (Tokugawa)",
-        "Events": "1617 Western trading ships limited to Nagasaki and Hirado; Japanese ships prohibited from travelling abroad in 1635; Chinese traders limited to Nagasaki the same year; Portuguese ships forbidden to land from 1639; Dutch trading mission moved to Dejima in Nagasaki in 1641, completing the implementation of the bakufu's policy of national seclusion (sakoku). 1617 Licensed quarter at Yoshiwara in Edo authorized.\n1635 System of alternate service (sankin kōtai) institutionalized.\n1637 Shimabara Rebellion."
+        "Events": "1617 Western trading ships limited to Nagasaki and Hirado; Japanese ships prohibited from travelling abroad in 1635; Chinese traders limited to Nagasaki the same year; Portuguese ships forbidden to land from 1639; Dutch trading mission moved to Dejima in Nagasaki in 1641, completing the implementation of the bakufu's policy of national seclusion (sakoku). 1617 Licensed quarter at Yoshiwara in Edo authorized. 1635 System of alternate service (sankin kōtai) institutionalized. 1637 Shimabara Rebellion."
     },
     "211": {
         "Dates (CE)": "1644.12 - 1648.2",
@@ -2202,7 +2202,7 @@
         "Era name": "Meiji",
         "Japanese": "明治",
         "Period": "Meiji",
-        "Events": "1868 Edo renamed Tokyo and designated capital; era names made to coincide with reign of emperor. 1872 Conscription and education ordinances enacted.\n1873 Land taxes revised; signs prohibiting Christianity taken down.\n1877 Satsuma Rebellion.\n1884 Peerage created.\n1885 Cabinet system established.\n1889 Constitution promulgated; first national election held in 1890.\n1894-95 Sino-Japanese War; annexation of Taiwan.\n1904-05 Russo-Japanese War.\n1910 Annexation of Korea."
+        "Events": "1868 Edo renamed Tokyo and designated capital; era names made to coincide with reign of emperor. 1872 Conscription and education ordinances enacted. 1873 Land taxes revised; signs prohibiting Christianity taken down. 1877 Satsuma Rebellion. 1884 Peerage created. 1885 Cabinet system established. 1889 Constitution promulgated; first national election held in 1890. 1894-95 Sino-Japanese War; annexation of Taiwan. 1904-05 Russo-Japanese War. 1910 Annexation of Korea."
     },
     "245": {
         "Dates (CE)": "1912.7 - 1926.12",
@@ -2211,7 +2211,7 @@
         "Era name": "Taishō",
         "Japanese": "大正",
         "Period": "Taisho",
-        "Events": "1914-1918 World War I. 1923 Great Kantō Earthquake.\n1926 Universal male suffrage (first election in 1928)."
+        "Events": "1914-1918 World War I. 1923 Great Kantō Earthquake. 1926 Universal male suffrage (first election in 1928)."
     },
     "246": {
         "Dates (CE)": "1926.12- 1989.1",
@@ -2220,7 +2220,7 @@
         "Era name": "Shōwa",
         "Japanese": "昭和",
         "Period": "Showa",
-        "Events": "1931 Manchurian Incident. 1933 Japan leaves League of Nations (effective 1935).\n1941 Attack on Pearl Harbor.\n1945 Atomic bombs dropped; end of World War II.\n1951 Treaty of San Francisco signed\n1955 Liberal Democratic Party achieves political dominance.\n1964 Summer Olympics held in Tokyo; Shinkansen \"bullet train\" starts operation.\n1972 Okinawa returned to Japan.\n1973 First \"oil shock\" begins.\n1978 Second \"oil shock\" begins."
+        "Events": "1931 Manchurian Incident. 1933 Japan leaves League of Nations (effective 1935). 1941 Attack on Pearl Harbor. 1945 Atomic bombs dropped; end of World War II. 1951 Treaty of San Francisco signed 1955 Liberal Democratic Party achieves political dominance. 1964 Summer Olympics held in Tokyo; Shinkansen \"bullet train\" starts operation. 1972 Okinawa returned to Japan. 1973 First \"oil shock\" begins. 1978 Second \"oil shock\" begins."
     },
     "247": {
         "Dates (CE)": "1989.1- 2019.4",
@@ -2229,7 +2229,7 @@
         "Era name": "Heisei",
         "Japanese": "平成",
         "Period": "Heisei",
-        "Events": "1990 Japanese economic bubble bursts; beginning of the \"Lost Decade.\" 1993 The Liberal Democratic Party (LDP) fails to win a majority in the House of Representatives; coalition cabinets formed beginning in 1994.\n2009 The Democratic Party of Japan wins a majority of seats in the House of Representatives, marking the end of LDP parliamentary rule.\n2011 The Great East Japan Earthquake (March 11).\n2012 The LDP-Kōmeitō coalition regains control of the House of Representatives in a landslide general-election victory.\n2013 The Liberal Democratic Party cements its comeback with an overwhelming victory in the House of Councillors election.\n2019 The Heisei Emperor (Akihito) abdicates on April 30."
+        "Events": "1990 Japanese economic bubble bursts; beginning of the \"Lost Decade.\" 1993 The Liberal Democratic Party (LDP) fails to win a majority in the House of Representatives; coalition cabinets formed beginning in 1994. 2009 The Democratic Party of Japan wins a majority of seats in the House of Representatives, marking the end of LDP parliamentary rule. 2011 The Great East Japan Earthquake (March 11). 2012 The LDP-Kōmeitō coalition regains control of the House of Representatives in a landslide general-election victory. 2013 The Liberal Democratic Party cements its comeback with an overwhelming victory in the House of Councillors election. 2019 The Heisei Emperor (Akihito) abdicates on April 30."
     },
     "248": {
         "Dates (CE)": "2019.5 - 9999.99",
