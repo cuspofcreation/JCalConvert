@@ -19,5 +19,10 @@ def jCalConvert (year):
     elif year < 645:
         return "Data only available from 645 CE"
     
+    for key, obj in j.items():
+        start_year = float(obj['Start'].split('.')[0])
+        end_year = float(obj['End'].split('.')[0])
+
+        if start_year <= year <= end_year:
+            return obj
     
-    print(j)
