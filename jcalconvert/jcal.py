@@ -2,11 +2,8 @@ import typer
 import pandas as pd
 import json
 
-app = typer.Typer()
-
-@app.command("yearLookup")
-def jCalConvert (year):
-    f = open('calObj.json')
+def yearLookup (year):
+    f = open('./data/calObj.json')
     j = json.load(f)
 
     # Handle edge cases
