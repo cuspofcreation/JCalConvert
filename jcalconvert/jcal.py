@@ -1,8 +1,7 @@
-import typer
 import pandas as pd
 import json
 
-def yearLookup (year):
+def eraLookup (year: int):
     f = open('./data/calObj.json')
     j = json.load(f)
 
@@ -13,11 +12,13 @@ def yearLookup (year):
         except:
             return "Please enter valid year"
     
-    elif year > 10000:
-        return "Please specify a valid year"
+    elif year > datetime.date.today().year:
+        print("Please specify a valid year")
+        return
     
     elif year < 645:
-        return "Data only available from 645 CE"
+        print("Data only available from 645 CE")
+        return
     
     # Logic for search by year. Returns full object
     for key, obj in j.items():
@@ -25,5 +26,6 @@ def yearLookup (year):
         end_year = float(obj['End'].split('.')[0])
 
         if start_year <= year <= end_year:
-            return obj
+            print(obj)
+            return
     
