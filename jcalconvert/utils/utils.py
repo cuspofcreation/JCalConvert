@@ -37,5 +37,5 @@ def eraFinder(json, year: int, converter: bool):
                 return(f'{era_name} {era_year}')
                 
         
-# # Convert Gregorian calendar year to corresponding Japanese Imperial calendar year
-# def yearConverter()
+# 
+# take in a date string in the form either, e.g., 平成21 or Heisei 21

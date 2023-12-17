@@ -19,7 +19,6 @@ def _versionCallback(value: bool) -> None:
 def eraLookup (
     year: int, 
     verbose: Optional[bool] = typer.Option(None, "--v", help="Give all era details"), 
-    convert: Optional[bool] = typer.Option(None, "--c", help="Convert Gregorian calendar date to Japanese Imperial calendar date")
     ):
 
     yearChecker(year)
