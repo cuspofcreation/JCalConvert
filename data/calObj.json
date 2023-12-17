@@ -2224,7 +2224,7 @@
     },
     "247": {
         "Dates (CE)": "1989.1- 2019.4",
-        "Start": "1989.1-",
+        "Start": "1989.1",
         "End": " 2019.4",
         "Era name": "Heisei",
         "Japanese": "平成",
@@ -2233,74 +2233,11 @@
     },
     "248": {
         "Dates (CE)": "2019.5 - 9999.99",
-        "Start": "2019.5 ",
+        "Start": "2019.5",
         "End": "9999.99",
         "Era name": "Reiwa",
         "Japanese": "令和",
         "Period": "Reiwa",
         "Events": "2019 Crown Prince Naruhito installed as emperor on May 1, becoming the first emperor in modern times to ascend the thrown while the previous emperor is still alive. 2021 The 2020 Tokyo Olympics open on July 23 after being delayed a year because of the coronavirus pandemic."
-    },
-    "249": {
-        "Dates (CE)": NaN,
-        "Start": NaN,
-        "End": NaN,
-        "Era name": NaN,
-        "Japanese": NaN,
-        "Period": NaN,
-        "Events": NaN
-    },
-    "250": {
-        "Dates (CE)": NaN,
-        "Start": NaN,
-        "End": NaN,
-        "Era name": NaN,
-        "Japanese": NaN,
-        "Period": NaN,
-        "Events": NaN
-    },
-    "251": {
-        "Dates (CE)": NaN,
-        "Start": NaN,
-        "End": NaN,
-        "Era name": NaN,
-        "Japanese": NaN,
-        "Period": NaN,
-        "Events": NaN
-    },
-    "252": {
-        "Dates (CE)": NaN,
-        "Start": NaN,
-        "End": NaN,
-        "Era name": NaN,
-        "Japanese": NaN,
-        "Period": NaN,
-        "Events": NaN
-    },
-    "253": {
-        "Dates (CE)": NaN,
-        "Start": NaN,
-        "End": NaN,
-        "Era name": NaN,
-        "Japanese": NaN,
-        "Period": NaN,
-        "Events": NaN
-    },
-    "254": {
-        "Dates (CE)": NaN,
-        "Start": NaN,
-        "End": NaN,
-        "Era name": NaN,
-        "Japanese": NaN,
-        "Period": NaN,
-        "Events": NaN
-    },
-    "255": {
-        "Dates (CE)": NaN,
-        "Start": NaN,
-        "End": NaN,
-        "Era name": NaN,
-        "Japanese": NaN,
-        "Period": NaN,
-        "Events": NaN
     }
 }

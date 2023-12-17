@@ -2,9 +2,9 @@ from typing import Optional
 
 import typer
 import json
-import datetime
 
 from jcalconvert import __app_name__, __version__
+from jcalconvert.utils.utils import yearChecker, eraFinder
 
 app = typer.Typer()
 f = open('./data/calObj.json')
@@ -16,64 +16,30 @@ def _versionCallback(value: bool) -> None:
         raise typer.Exit()
 
 @app.command("era")
-def eraLookup (year: int, verbose: Optional[bool] = typer.Option(None, "--v", help="Give all era details"), convert: Optional[bool] = typer.Option(None, "--c", help="Convert Gregorian calendar date to Japanese Imperial calendar date")):
+def eraLookup (
+    year: int, 
+    verbose: Optional[bool] = typer.Option(None, "--v", help="Give all era details"), 
+    convert: Optional[bool] = typer.Option(None, "--c", help="Convert Gregorian calendar date to Japanese Imperial calendar date")
+    ):
+
+    yearChecker(year)
+    
+    res = eraFinder(j, year)
+    
+    if (verbose):
+         print(res)
+    else: print(res['Era name'])
+
+@app.command("convert", help="Convert Gregorian calendar year to Japanese Imperial Calendar")
+def convert(
+    year: int
+    ):
 
     # Handle edge cases
-    if type(year) != int:
-        try:
-            int(year)
-        except:
-            return "Please enter valid year"
+    yearChecker(year)
     
-    elif year > datetime.date.today().year:
-        print("Please specify a valid year")
-        return
-    
-    elif year < 645:
-        print("Data only available from 645 CE")
-        return
-    
-    # Logic for search by year. Returns full object
-    for key, obj in j.items():
-        start_year = float(obj['Start'].split('.')[0])
-        end_year = float(obj['End'].split('.')[0])
-
-        if start_year <= year <= end_year:
-            if verbose:
-                print(obj)
-            else:
-                print(obj['Era name'])
-            return
-
-@app.command("convert")
-def convert(year: int):
-
-    # Handle edge cases
-        if type(year) != int:
-            try:
-                int(year)
-            except:
-                return "Please enter valid year"
-        
-        elif year > datetime.date.today().year:
-            print("Please specify a valid year")
-            return
-        
-        elif year < 645:
-            print("Data only available from 645 CE")
-            return
-
-         # Logic for search by year. Returns full object
-        for key, obj in j.items():
-            start_year = float(obj['Start'].split('.')[0])
-            end_year = float(obj['End'].split('.')[0])
-
-            if start_year <= year <= end_year:
-                era_name = obj['Era name']
-                era_year = int(year - start_year + 1)
-                print(f'{era_name} {era_year}')
-                return
-
+    #Convert Gregorian year input to Japanese Imperial calendar
+    print(eraFinder(j, year, converter=True))
 
 @app.callback()
 def main(
