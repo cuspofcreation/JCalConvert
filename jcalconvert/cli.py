@@ -4,7 +4,7 @@ import typer
 import json
 
 from jcalconvert import __app_name__, __version__
-from jcalconvert.utils.utils import yearChecker, eraFinder
+from jcalconvert.utils.utils import yearChecker, eraLookup, calConvert
 
 app = typer.Typer()
 f = open('./data/calObj.json')
@@ -15,32 +15,28 @@ def _versionCallback(value: bool) -> None:
         typer.echo(f"{__app_name__}, v{__version__}")
         raise typer.Exit()
 
-@app.command("era", help="Lookup corresponding era name for Western (Gregorian) calendar year")
+@app.command("era", help="Lookup corresponding era details for Western or Japanese calendar year input")
 def eraLookup (
-    year: int, 
+    year: int | str, 
     verbose: Optional[bool] = typer.Option(None, "--v", help="Give all era details"), 
     ):
 
     yearChecker(year)
     
-    res = eraFinder(j, year)
-    
-    if (verbose):
-         print(res)
-    else: print(res['Era name'])
+    res = eraLookup(j, year)
 
-@app.command("convert", help="Convert Western (Gregorian) calendar year to Japanese Imperial Calendar")
+    if (verbose):
+        print(res)
+    else:
+        print(res['Era name'])
+
+@app.command("convert", help="Convert Western calendar year to Japanese Imperial calendar, or Japanese Imperial calendar year to Western year")
 def convert(
-    year: int,
-    j2g: Optional[bool] = typer.Option(None, "--j2g", "j2g", help="Convert Japanese Imperial calendar date to Gregorian"),
-    g2j: Optional[bool] = typer.Option(None, "--g2j", "g2j", help="Convert Western (Gregorian) calendar year to corresponding Japanese Imperial calendar dates")
+    year: int | str
     ):
 
-    # Handle edge cases
     yearChecker(year)
-    
-    #Convert Gregorian year input to Japanese Imperial calendar
-    print(eraFinder(j, year, converter=True))
+    calConvert(year)
 
 @app.callback()
 def main(
