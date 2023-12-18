@@ -15,7 +15,7 @@ def _versionCallback(value: bool) -> None:
         typer.echo(f"{__app_name__}, v{__version__}")
         raise typer.Exit()
 
-@app.command("era")
+@app.command("era", help="Lookup corresponding era name for Western (Gregorian) calendar year")
 def eraLookup (
     year: int, 
     verbose: Optional[bool] = typer.Option(None, "--v", help="Give all era details"), 
@@ -29,9 +29,11 @@ def eraLookup (
          print(res)
     else: print(res['Era name'])
 
-@app.command("convert", help="Convert Gregorian calendar year to Japanese Imperial Calendar")
+@app.command("convert", help="Convert Western (Gregorian) calendar year to Japanese Imperial Calendar")
 def convert(
-    year: int
+    year: int,
+    j2g: Optional[bool] = typer.Option(None, "--j2g", "j2g", help="Convert Japanese Imperial calendar date to Gregorian"),
+    g2j: Optional[bool] = typer.Option(None, "--g2j", "g2j", help="Convert Western (Gregorian) calendar year to corresponding Japanese Imperial calendar dates")
     ):
 
     # Handle edge cases
