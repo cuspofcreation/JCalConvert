@@ -1,0 +1,2492 @@
+{
+    "0": {
+        "Dates (CE)": "645.6 - 650.2",
+        "Start": "645.6 ",
+        "End": " 650.2",
+        "Era name": "Taika",
+        "Japanese": "\u5927\u5316",
+        "Period": "Pre-Nara",
+        "Events": "645 Taika (Great) Reforms; capital moved to Naniwa.",
+        "Era_no_diacritics": "Taika"
+    },
+    "1": {
+        "Dates (CE)": "650.2 - 654.10",
+        "Start": "650.2 ",
+        "End": "654.10",
+        "Era name": "Hakuchi (Hakuh\u014d)",
+        "Japanese": "\u767d\u96c9 \uff08\u767d\u9cf3\uff09",
+        "Period": "Pre-Nara",
+        "Events": "The period can be referred to as either Hakuchi or Hakuh\u014d, occupying the latter half of the reign of Emperor K\u014dtoku (r.\u00a0645-654). Hakuh\u014d (originally an elegant alternative to Hakuchi) was also apparently used intermittently as an unofficial era name (shi-neng\u014d) until 686. The Hakuh\u014d period in art generally, although not always, refers to the years between the Taika Reform of 645 and the establishment of the capital in Nara in 710.",
+        "Era_no_diacritics": "Hakuchi (Hakuho)"
+    },
+    "2": {
+        "Dates (CE)": "654.10 - 686.7",
+        "Start": "654.10",
+        "End": " 686.7",
+        "Era name": "(Hakuh\u014d)",
+        "Japanese": "\uff08\u767d\u9cf3\uff09",
+        "Period": "Pre-Nara",
+        "Events": "No official era name exists for this period, although \"Hakuh\u014d\" seems to have been used occasionally on an unofficial basis. The Hakuchi/Hakuh\u014d ambiguity is further compounded by scholars who contend that \"Hakuh\u014d\" refers to a period (661-683) under the \"Ky\u016bsh\u016b court\" as postulated by Yoshida Takehiko. 667 Capital moved to \u014ctsu in \u014cmi Province. 672 Tenmu emerges victorious in the Jinshin Disturbance; tenn\u014d (\u5929\u7687) officially adopted as the soveriegn's title. This is also about the time \"Nihon\" becomes established as the country's name.",
+        "Era_no_diacritics": "Hakuho*"
+    },
+    "3": {
+        "Dates (CE)": "686.7 - 686.9",
+        "Start": "686.7 ",
+        "End": " 686.9",
+        "Era name": "Shuch\u014d",
+        "Japanese": "\u6731\u9ce5",
+        "Period": "Pre-Nara",
+        "Events": "The era officially ended with the death of Emperor Tenmu in 686, but the name continued in unofficial use through the reign of Empress Jit\u014d (r.\u00a0690-97). 694 Capital moved to Fujiwara in Yamato Province.",
+        "Era_no_diacritics": "Shucho"
+    },
+    "4": {
+        "Dates (CE)": "701.3 - 704.5",
+        "Start": "701.3 ",
+        "End": " 704.5",
+        "Era name": "Taih\u014d",
+        "Japanese": "\u5927\u5b9d",
+        "Period": "Pre-Nara",
+        "Events": "701 Taih\u014d ritsury\u014d penal and administrative codes promulgated.",
+        "Era_no_diacritics": "Taiho"
+    },
+    "5": {
+        "Dates (CE)": "704.5 - 708.1",
+        "Start": "704.5 ",
+        "End": " 708.1",
+        "Era name": "Keiun",
+        "Japanese": "\u6176\u96f2",
+        "Period": "Pre-Nara",
+        "Events": NaN,
+        "Era_no_diacritics": "Keiun"
+    },
+    "6": {
+        "Dates (CE)": "708.1 - 715.9",
+        "Start": "708.1 ",
+        "End": " 715.9",
+        "Era name": "Wad\u014d",
+        "Japanese": "\u548c\u9285",
+        "Period": "Nara",
+        "Events": "710 Capital moved to Heij\u014d-ky\u014d (Nara) by Empress Genmei. 712 Kojiki completed by \u014c no Yasumaro.",
+        "Era_no_diacritics": "Wado"
+    },
+    "7": {
+        "Dates (CE)": "715.9 - 717.11",
+        "Start": "715.9 ",
+        "End": "717.11",
+        "Era name": "Reiki",
+        "Japanese": "\u970a\u4e80",
+        "Period": "Nara",
+        "Events": NaN,
+        "Era_no_diacritics": "Reiki"
+    },
+    "8": {
+        "Dates (CE)": "717.11 - 724.2",
+        "Start": "717.11",
+        "End": " 724.2",
+        "Era name": "Y\u014dr\u014d",
+        "Japanese": "\u990a\u8001",
+        "Period": "Nara",
+        "Events": "718 Y\u014dr\u014d penal and administrative codes compiled. 720 Nihon shoki completed.",
+        "Era_no_diacritics": "Yoro"
+    },
+    "9": {
+        "Dates (CE)": "724.2 - 729.8",
+        "Start": "724.2 ",
+        "End": " 729.8",
+        "Era name": "Jinki",
+        "Japanese": "\u795e\u4e80",
+        "Period": "Nara",
+        "Events": NaN,
+        "Era_no_diacritics": "Jinki"
+    },
+    "10": {
+        "Dates (CE)": "729.8 - 749.4",
+        "Start": "729.8 ",
+        "End": " 749.4",
+        "Era name": "Tenpy\u014d",
+        "Japanese": "\u5929\u5e73",
+        "Period": "Nara",
+        "Events": NaN,
+        "Era_no_diacritics": "Tenpyo"
+    },
+    "11": {
+        "Dates (CE)": "749.4 - 749.7",
+        "Start": "749.4 ",
+        "End": " 749.7",
+        "Era name": "Tenpy\u014d Kanp\u014d",
+        "Japanese": "\u5929\u5e73\u611f\u5b9d",
+        "Period": "Nara",
+        "Events": NaN,
+        "Era_no_diacritics": "Tenpyo Kanpo"
+    },
+    "12": {
+        "Dates (CE)": "749.7 - 757.8",
+        "Start": "749.7 ",
+        "End": " 757.8",
+        "Era name": "Tenpy\u014d Sh\u014dh\u014d",
+        "Japanese": "\u5929\u5e73\u52dd\u5b9d",
+        "Period": "Nara",
+        "Events": "752 Great Buddha of T\u014ddaiji completed. 754 Priest Ganjin arrives from China. 756 Sh\u014ds\u014din constructed.",
+        "Era_no_diacritics": "Tenpyo Shoho"
+    },
+    "13": {
+        "Dates (CE)": "757.8 - 765.1",
+        "Start": "757.8 ",
+        "End": " 765.1",
+        "Era name": "Tenpy\u014d H\u014dji",
+        "Japanese": "\u5929\u5e73\u5b9d\u5b57",
+        "Period": "Nara",
+        "Events": "759 Last dated poem of the Man'y\u014dsh\u016b. 764 Revolt of Fujiwara no Nakamaro crushed.",
+        "Era_no_diacritics": "Tenpyo Hoji"
+    },
+    "14": {
+        "Dates (CE)": "765.1 - 767.8",
+        "Start": "765.1 ",
+        "End": " 767.8",
+        "Era name": "Tenpy\u014d Shingo",
+        "Japanese": "\u5929\u5e73\u795e\u8b77",
+        "Period": "Nara",
+        "Events": NaN,
+        "Era_no_diacritics": "Tenpyo Shingo"
+    },
+    "15": {
+        "Dates (CE)": "767.8 - 770.9",
+        "Start": "767.8 ",
+        "End": " 770.9",
+        "Era name": "Jingo Keiun",
+        "Japanese": "\u795e\u8b77\u666f\u96f2",
+        "Period": "Nara",
+        "Events": NaN,
+        "Era_no_diacritics": "Jingo Keiun"
+    },
+    "16": {
+        "Dates (CE)": "770.10 - 780.12",
+        "Start": "770.10",
+        "End": "780.12",
+        "Era name": "H\u014dki",
+        "Japanese": "\u5b9d\u4e80",
+        "Period": "Nara",
+        "Events": "770 Priest D\u014dky\u014d exiled.",
+        "Era_no_diacritics": "Hoki"
+    },
+    "17": {
+        "Dates (CE)": "781.1 - 782.8",
+        "Start": "781.1 ",
+        "End": " 782.8",
+        "Era name": "Ten'\u014d",
+        "Japanese": "\u5929\u5fdc",
+        "Period": "Nara",
+        "Events": NaN,
+        "Era_no_diacritics": "Ten'o"
+    },
+    "18": {
+        "Dates (CE)": "782.8 - 806.5",
+        "Start": "782.8 ",
+        "End": " 806.5",
+        "Era name": "Enryaku",
+        "Japanese": "\u5ef6\u66a6",
+        "Period": "Heian",
+        "Events": "784 Capital moved to Nagaoka. 788 Priest Saich\u014d builds Enryakuji. 794 Capital moved to Heian-ky\u014d (Kyoto) by Emperor Kanmu.",
+        "Era_no_diacritics": "Enryaku"
+    },
+    "19": {
+        "Dates (CE)": "806.5 - 810.9",
+        "Start": "806.5 ",
+        "End": " 810.9",
+        "Era name": "Daid\u014d",
+        "Japanese": "\u5927\u540c",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Daido"
+    },
+    "20": {
+        "Dates (CE)": "810.9 - 824.1",
+        "Start": "810.9 ",
+        "End": " 824.1",
+        "Era name": "K\u014dnin",
+        "Japanese": "\u5f18\u4ec1",
+        "Period": "Heian",
+        "Events": "811 Emishi defeated after thirty years of conflict. 816 Priest K\u016bkai establishes Kong\u014dbuji on Mount K\u014dya.",
+        "Era_no_diacritics": "Konin"
+    },
+    "21": {
+        "Dates (CE)": "824.1 - 834.1",
+        "Start": "824.1 ",
+        "End": " 834.1",
+        "Era name": "Tench\u014d",
+        "Japanese": "\u5929\u9577",
+        "Period": "Heian",
+        "Events": "832 Priest K\u016bkai establishes a Shingon chapel inside the imperial palace.",
+        "Era_no_diacritics": "Tencho"
+    },
+    "22": {
+        "Dates (CE)": "834.1 - 848.6",
+        "Start": "834.1 ",
+        "End": " 848.6",
+        "Era name": "J\u014dwa",
+        "Japanese": "\u627f\u548c",
+        "Period": "Heian",
+        "Events": "838 Last official embassy to Tang China. 847 Priest Ennin returns from China, introducing Tendai and Mikky\u014d (esoteric Buddhism) practices.",
+        "Era_no_diacritics": "Jowa"
+    },
+    "23": {
+        "Dates (CE)": "848.6 - 851.4",
+        "Start": "848.6 ",
+        "End": " 851.4",
+        "Era name": "Kash\u014d",
+        "Japanese": "\u5609\u7965",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Kasho"
+    },
+    "24": {
+        "Dates (CE)": "851.4 - 854.11",
+        "Start": "851.4 ",
+        "End": "854.11",
+        "Era name": "Ninju",
+        "Japanese": "\u4ec1\u5bff",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Ninju"
+    },
+    "25": {
+        "Dates (CE)": "854.11 - 857.2",
+        "Start": "854.11",
+        "End": " 857.2",
+        "Era name": "Saik\u014d",
+        "Japanese": "\u6589\u8861",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Saiko"
+    },
+    "26": {
+        "Dates (CE)": "857.2 - 859.4",
+        "Start": "857.2 ",
+        "End": " 859.4",
+        "Era name": "Tennan",
+        "Japanese": "\u5929\u5b89",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Tennan"
+    },
+    "27": {
+        "Dates (CE)": "859.4 - 877.4",
+        "Start": "859.4 ",
+        "End": " 877.4",
+        "Era name": "J\u014dgan",
+        "Japanese": "\u8c9e\u89b3",
+        "Period": "Heian",
+        "Events": "866 Fujiwara no Yoshifusa becomes the first person not of imperial birth to receive the title of regent (sessh\u014d).",
+        "Era_no_diacritics": "Jogan"
+    },
+    "28": {
+        "Dates (CE)": "877.4 - 885.2",
+        "Start": "877.4 ",
+        "End": " 885.2",
+        "Era name": "Gangy\u014d",
+        "Japanese": "\u5143\u6176",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Gangyo"
+    },
+    "29": {
+        "Dates (CE)": "885.2 - 889.4",
+        "Start": "885.2 ",
+        "End": " 889.4",
+        "Era name": "Ninna",
+        "Japanese": "\u4ec1\u548c",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Ninna"
+    },
+    "30": {
+        "Dates (CE)": "889.4 - 898.4",
+        "Start": "889.4 ",
+        "End": " 898.4",
+        "Era name": "Kanpei",
+        "Japanese": "\u5bdb\u5e73",
+        "Period": "Heian",
+        "Events": "894 Plan to send an embassy to Tang China is canceled.",
+        "Era_no_diacritics": "Kanpei"
+    },
+    "31": {
+        "Dates (CE)": "898.4 - 901.7",
+        "Start": "898.4 ",
+        "End": " 901.7",
+        "Era name": "Sh\u014dtai",
+        "Japanese": "\u660c\u6cf0",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Shotai"
+    },
+    "32": {
+        "Dates (CE)": "901.7 - 923.4",
+        "Start": "901.7 ",
+        "End": " 923.4",
+        "Era name": "Engi",
+        "Japanese": "\u5ef6\u559c",
+        "Period": "Heian",
+        "Events": "901 Nihon sandai jitsuroku, last of the Six National Histories, completed. 905 Kokinsh\u016b compiled.",
+        "Era_no_diacritics": "Engi"
+    },
+    "33": {
+        "Dates (CE)": "923.4 - 931.4",
+        "Start": "923.4 ",
+        "End": " 931.4",
+        "Era name": "Ench\u014d",
+        "Japanese": "\u5ef6\u9577",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Encho"
+    },
+    "34": {
+        "Dates (CE)": "931.4 - 938.5",
+        "Start": "931.4 ",
+        "End": " 938.5",
+        "Era name": "J\u014dhei (or Sh\u014dhei)",
+        "Japanese": "\u4e1e\u5e73",
+        "Period": "Heian",
+        "Events": "935 J\u014dhei-Tengy\u014d Disturbance begins.",
+        "Era_no_diacritics": "Johei (or Shohei)"
+    },
+    "35": {
+        "Dates (CE)": "937.5 - 947.4",
+        "Start": "937.5 ",
+        "End": " 947.4",
+        "Era name": "Tengy\u014d",
+        "Japanese": "\u5929\u6176",
+        "Period": "Heian",
+        "Events": "939-40 Rebellion by Taira no Masakado. 941 Fujiwara no Tadahira is appointed kanpaku, a title henceforth used for regents of adult emperors.",
+        "Era_no_diacritics": "Tengyo"
+    },
+    "36": {
+        "Dates (CE)": "947.4 - 957.10",
+        "Start": "947.4 ",
+        "End": "957.10",
+        "Era name": "Tenryaku",
+        "Japanese": "\u5929\u66a6",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Tenryaku"
+    },
+    "37": {
+        "Dates (CE)": "957.10 - 961.2",
+        "Start": "957.10",
+        "End": " 961.2",
+        "Era name": "Tentoku",
+        "Japanese": "\u5929\u5fb3",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Tentoku"
+    },
+    "38": {
+        "Dates (CE)": "961.2 - 964.7",
+        "Start": "961.2 ",
+        "End": " 964.7",
+        "Era name": "\u014cwa",
+        "Japanese": "\u5fdc\u548c",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Owa"
+    },
+    "39": {
+        "Dates (CE)": "964.7 - 968.8",
+        "Start": "964.7 ",
+        "End": " 968.8",
+        "Era name": "K\u014dh\u014d",
+        "Japanese": "\u5eb7\u4fdd",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Koho"
+    },
+    "40": {
+        "Dates (CE)": "968.8 - 970.3",
+        "Start": "968.8 ",
+        "End": " 970.3",
+        "Era name": "Anna",
+        "Japanese": "\u5b89\u548c",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Anna"
+    },
+    "41": {
+        "Dates (CE)": "970.3 - 973.12",
+        "Start": "970.3 ",
+        "End": "973.12",
+        "Era name": "Tenroku",
+        "Japanese": "\u5929\u7984",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Tenroku"
+    },
+    "42": {
+        "Dates (CE)": "973.12 - 976.7",
+        "Start": "973.12",
+        "End": " 976.7",
+        "Era name": "Ten'en",
+        "Japanese": "\u5929\u5ef6",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Ten'en"
+    },
+    "43": {
+        "Dates (CE)": "976.7 - 978.11",
+        "Start": "976.7 ",
+        "End": "978.11",
+        "Era name": "J\u014dgen",
+        "Japanese": "\u8c9e\u5143",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Jogen"
+    },
+    "44": {
+        "Dates (CE)": "978.11 - 983.4",
+        "Start": "978.11",
+        "End": " 983.4",
+        "Era name": "Tengen",
+        "Japanese": "\u5929\u5143",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Tengen"
+    },
+    "45": {
+        "Dates (CE)": "983.4 - 985.4",
+        "Start": "983.4 ",
+        "End": " 985.4",
+        "Era name": "Eikan",
+        "Japanese": "\u6c38\u89b3",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Eikan"
+    },
+    "46": {
+        "Dates (CE)": "985.4 - 987.4",
+        "Start": "985.4 ",
+        "End": " 987.4",
+        "Era name": "Kanwa",
+        "Japanese": "\u5bdb\u548c",
+        "Period": "Heian",
+        "Events": "985 Priest Genshin writes \u014cj\u014d y\u014dsh\u016b (The Essentials of Rebirth in the Pure Land).",
+        "Era_no_diacritics": "Kanwa"
+    },
+    "47": {
+        "Dates (CE)": "987.4 - 989.8",
+        "Start": "987.4 ",
+        "End": " 989.8",
+        "Era name": "Eien",
+        "Japanese": "\u6c38\u5ef6",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Eien"
+    },
+    "48": {
+        "Dates (CE)": "989.8 - 990.11",
+        "Start": "989.8 ",
+        "End": "990.11",
+        "Era name": "Eiso",
+        "Japanese": "\u6c38\u795a",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Eiso"
+    },
+    "49": {
+        "Dates (CE)": "990.11 - 995.2",
+        "Start": "990.11",
+        "End": " 995.2",
+        "Era name": "Sh\u014dryaku",
+        "Japanese": "\u6b63\u66a6",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Shoryaku"
+    },
+    "50": {
+        "Dates (CE)": "995.2 - 999.1",
+        "Start": "995.2 ",
+        "End": " 999.1",
+        "Era name": "Ch\u014dtoku",
+        "Japanese": "\u9577\u5fb3",
+        "Period": "Heian",
+        "Events": "995 Fujiwara no Michinaga becomes nairan (\"private inspector\"), cementing his control over the court; until 1027, the height of Fujiwara influence.",
+        "Era_no_diacritics": "Chotoku"
+    },
+    "51": {
+        "Dates (CE)": "999.1 - 1004.7",
+        "Start": "999.1 ",
+        "End": " 1004.7",
+        "Era name": "Ch\u014dho",
+        "Japanese": "\u9577\u4fdd",
+        "Period": "Heian",
+        "Events": "Makura no s\u014dshi (The Pillow Book) by Sei Sh\u014dnagon largely completed by this time.",
+        "Era_no_diacritics": "Choho"
+    },
+    "52": {
+        "Dates (CE)": "1004.7 - 1012.12",
+        "Start": "1004.7 ",
+        "End": "1012.12",
+        "Era name": "Kank\u014d",
+        "Japanese": "\u5bdb\u5f18",
+        "Period": "Heian",
+        "Events": "Genji monogatari (The Tale of Genji) by Murasaki Shikibu completed about this time.",
+        "Era_no_diacritics": "Kanko"
+    },
+    "53": {
+        "Dates (CE)": "1012.12 - 1017.4",
+        "Start": "1012.12",
+        "End": " 1017.4",
+        "Era name": "Ch\u014dwa",
+        "Japanese": "\u9577\u548c",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Chowa"
+    },
+    "54": {
+        "Dates (CE)": "1017.4 - 1021.2",
+        "Start": "1017.4 ",
+        "End": " 1021.2",
+        "Era name": "Kan'in",
+        "Japanese": "\u5bdb\u4ec1",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Kan'in"
+    },
+    "55": {
+        "Dates (CE)": "1021.2 - 1024.7",
+        "Start": "1021.2 ",
+        "End": " 1024.7",
+        "Era name": "Jian",
+        "Japanese": "\u6cbb\u5b89",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Jian"
+    },
+    "56": {
+        "Dates (CE)": "1024.7 - 1028.7",
+        "Start": "1024.7 ",
+        "End": " 1028.7",
+        "Era name": "Manju",
+        "Japanese": "\u4e07\u5bff",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Manju"
+    },
+    "57": {
+        "Dates (CE)": "1028.7 - 1037.4",
+        "Start": "1028.7 ",
+        "End": " 1037.4",
+        "Era name": "Ch\u014dgen",
+        "Japanese": "\u9577\u5143",
+        "Period": "Heian",
+        "Events": "1028 Revolt of Taira no Tadatsune (surrenders to Minamoto no Yorinobu in 1031).",
+        "Era_no_diacritics": "Chogen"
+    },
+    "58": {
+        "Dates (CE)": "1037.4 - 1040.11",
+        "Start": "1037.4 ",
+        "End": "1040.11",
+        "Era name": "Ch\u014dryaku",
+        "Japanese": "\u9577\u66a6",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Choryaku"
+    },
+    "59": {
+        "Dates (CE)": "1040.11 - 1044.11",
+        "Start": "1040.11",
+        "End": "1044.11",
+        "Era name": "Ch\u014dky\u016b",
+        "Japanese": "\u9577\u4e45",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Chokyu"
+    },
+    "60": {
+        "Dates (CE)": "1044.11 - 1046.4",
+        "Start": "1044.11",
+        "End": " 1046.4",
+        "Era name": "Kantoku",
+        "Japanese": "\u5bdb\u5fb3",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Kantoku"
+    },
+    "61": {
+        "Dates (CE)": "1046.4 - 1053.1",
+        "Start": "1046.4 ",
+        "End": " 1053.1",
+        "Era name": "Eish\u014d",
+        "Japanese": "\u6c38\u627f",
+        "Period": "Heian",
+        "Events": "1051 Beginning of the Earlier Nine Years' War under Minamoto no Yoriyoshi.",
+        "Era_no_diacritics": "Eisho"
+    },
+    "62": {
+        "Dates (CE)": "1053.1 - 1058.8",
+        "Start": "1053.1 ",
+        "End": " 1058.8",
+        "Era name": "Tenki",
+        "Japanese": "\u5929\u559c",
+        "Period": "Heian",
+        "Events": "1053 H\u014d\u014dd\u014d (Phoenix Hall) constructed at the By\u014dd\u014din by Minamoto no Yorimichi.",
+        "Era_no_diacritics": "Tenki"
+    },
+    "63": {
+        "Dates (CE)": "1058.8 - 1065.8",
+        "Start": "1058.8 ",
+        "End": " 1065.8",
+        "Era name": "K\u014dhei",
+        "Japanese": "\u5eb7\u5e73",
+        "Period": "Heian",
+        "Events": "1063 Yoriyoshi secretly builds shrine dedicated to Hachiman in Sagami Province.",
+        "Era_no_diacritics": "Kohei"
+    },
+    "64": {
+        "Dates (CE)": "1065.8 - 1069.4",
+        "Start": "1065.8 ",
+        "End": " 1069.4",
+        "Era name": "Jiryaku",
+        "Japanese": "\u6cbb\u66a6",
+        "Period": "Heian",
+        "Events": "1068 Emperor Go-Sanj\u014d becomes the first emperor in 170 years whose mother is not a Fujiwara.",
+        "Era_no_diacritics": "Jiryaku"
+    },
+    "65": {
+        "Dates (CE)": "1069.4 - 1074.8",
+        "Start": "1069.4 ",
+        "End": " 1074.8",
+        "Era name": "Enky\u016b",
+        "Japanese": "\u5ef6\u4e45",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Enkyu"
+    },
+    "66": {
+        "Dates (CE)": "1074.8 - 1077.11",
+        "Start": "1074.8 ",
+        "End": "1077.11",
+        "Era name": "Sh\u014dh\u014d",
+        "Japanese": "\u627f\u4fdd",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Shoho"
+    },
+    "67": {
+        "Dates (CE)": "1077.11 - 1081.2",
+        "Start": "1077.11",
+        "End": " 1081.2",
+        "Era name": "Sh\u014dryaku",
+        "Japanese": "\u627f\u66a6",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Shoryaku"
+    },
+    "68": {
+        "Dates (CE)": "1081.2 - 1084.2",
+        "Start": "1081.2 ",
+        "End": " 1084.2",
+        "Era name": "Eiho",
+        "Japanese": "\u6c38\u4fdd",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Eiho"
+    },
+    "69": {
+        "Dates (CE)": "1084.2 - 1087.2",
+        "Start": "1084.2 ",
+        "End": " 1087.2",
+        "Era name": "\u014ctoku",
+        "Japanese": "\u5fdc\u5fb3",
+        "Period": "Heian",
+        "Events": "1086 Emperor Shirakawa abdicates and establishes his Senior Retired Emperor's Office (In-no-ch\u014d).",
+        "Era_no_diacritics": "Otoku"
+    },
+    "70": {
+        "Dates (CE)": "1087.2 - 1094.12",
+        "Start": "1087.2 ",
+        "End": "1094.12",
+        "Era name": "Kanji",
+        "Japanese": "\u5bdb\u6cbb",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Kanji"
+    },
+    "71": {
+        "Dates (CE)": "1094.12 - 1096.12",
+        "Start": "1094.12",
+        "End": "1096.12",
+        "Era name": "Kah\u014d",
+        "Japanese": "\u5609\u4fdd",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Kaho"
+    },
+    "72": {
+        "Dates (CE)": "1096.12 - 1097.11",
+        "Start": "1096.12",
+        "End": "1097.11",
+        "Era name": "Eich\u014d",
+        "Japanese": "\u6c38\u9577",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Eicho"
+    },
+    "73": {
+        "Dates (CE)": "1097.11 - 1099.8",
+        "Start": "1097.11",
+        "End": " 1099.8",
+        "Era name": "Sh\u014dtoku",
+        "Japanese": "\u627f\u5fb3",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Shotoku"
+    },
+    "74": {
+        "Dates (CE)": "1099.8 - 1104.2",
+        "Start": "1099.8 ",
+        "End": " 1104.2",
+        "Era name": "K\u014dwa",
+        "Japanese": "\u5eb7\u548c",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Kowa"
+    },
+    "75": {
+        "Dates (CE)": "1104.2 - 1106.4",
+        "Start": "1104.2 ",
+        "End": " 1106.4",
+        "Era name": "Ch\u014dji",
+        "Japanese": "\u9577\u6cbb",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Choji"
+    },
+    "76": {
+        "Dates (CE)": "1106.4 - 1108.8",
+        "Start": "1106.4 ",
+        "End": " 1108.8",
+        "Era name": "Kash\u014d",
+        "Japanese": "\u5609\u627f",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Kasho"
+    },
+    "77": {
+        "Dates (CE)": "1108.8 - 1110.7",
+        "Start": "1108.8 ",
+        "End": " 1110.7",
+        "Era name": "Tennin",
+        "Japanese": "\u5929\u4ec1",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Tennin"
+    },
+    "78": {
+        "Dates (CE)": "1110.7 - 1112.7",
+        "Start": "1110.7 ",
+        "End": " 1112.7",
+        "Era name": "Ten'ei",
+        "Japanese": "\u5929\u6c38",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Ten'ei"
+    },
+    "79": {
+        "Dates (CE)": "1113.7 - 1118.4",
+        "Start": "1113.7 ",
+        "End": " 1118.4",
+        "Era name": "Eiky\u016b",
+        "Japanese": "\u6c38\u4e45",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Eikyu"
+    },
+    "80": {
+        "Dates (CE)": "1118.4 - 1120.4",
+        "Start": "1118.4 ",
+        "End": " 1120.4",
+        "Era name": "Genei",
+        "Japanese": "\u5143\u6c38",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Genei"
+    },
+    "81": {
+        "Dates (CE)": "1120.4 - 1124.4",
+        "Start": "1120.4 ",
+        "End": " 1124.4",
+        "Era name": "H\u014dan",
+        "Japanese": "\u4fdd\u5b89",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Hoan"
+    },
+    "82": {
+        "Dates (CE)": "1124.4 - 1126.1",
+        "Start": "1124.4 ",
+        "End": " 1126.1",
+        "Era name": "Tenji",
+        "Japanese": "\u5929\u6cbb",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Tenji"
+    },
+    "83": {
+        "Dates (CE)": "1126.1 - 1131.1",
+        "Start": "1126.1 ",
+        "End": " 1131.1",
+        "Era name": "Taiji",
+        "Japanese": "\u5927\u6cbb",
+        "Period": "Heian",
+        "Events": "1129 The retired emperor Toba, Shirakawa's grandson, becomes senior retired emperor; he relies on the Ise Heishi for military support.",
+        "Era_no_diacritics": "Taiji"
+    },
+    "84": {
+        "Dates (CE)": "1131.1 - 1132.8",
+        "Start": "1131.1 ",
+        "End": " 1132.8",
+        "Era name": "Tensh\u014d",
+        "Japanese": "\u5929\u627f",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Tensho"
+    },
+    "85": {
+        "Dates (CE)": "1132.8 - 1135.4",
+        "Start": "1132.8 ",
+        "End": " 1135.4",
+        "Era name": "Ch\u014dsh\u014d",
+        "Japanese": "\u9577\u627f",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Chosho"
+    },
+    "86": {
+        "Dates (CE)": "1135.4 - 1141.7",
+        "Start": "1135.4 ",
+        "End": " 1141.7",
+        "Era name": "H\u014den",
+        "Japanese": "\u4fdd\u5ef6",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Hoen"
+    },
+    "87": {
+        "Dates (CE)": "1141.7 - 1142.4",
+        "Start": "1141.7 ",
+        "End": " 1142.4",
+        "Era name": "Eiji",
+        "Japanese": "\u6c38\u6cbb",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Eiji"
+    },
+    "88": {
+        "Dates (CE)": "1142.4 - 1144.2",
+        "Start": "1142.4 ",
+        "End": " 1144.2",
+        "Era name": "K\u014dji",
+        "Japanese": "\u5eb7\u6cbb",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Koji"
+    },
+    "89": {
+        "Dates (CE)": "1144.2 - 1145.7",
+        "Start": "1144.2 ",
+        "End": " 1145.7",
+        "Era name": "Ten'y\u014d",
+        "Japanese": "\u5929\u990a",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Ten'yo"
+    },
+    "90": {
+        "Dates (CE)": "1145.7 - 1151.1",
+        "Start": "1145.7 ",
+        "End": " 1151.1",
+        "Era name": "Ky\u016ban",
+        "Japanese": "\u4e45\u5b89",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Kyuan"
+    },
+    "91": {
+        "Dates (CE)": "1151.1 - 1154.10",
+        "Start": "1151.1 ",
+        "End": "1154.10",
+        "Era name": "Ninpei",
+        "Japanese": "\u4ec1\u5e73",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Ninpei"
+    },
+    "92": {
+        "Dates (CE)": "1154.10 - 1156.4",
+        "Start": "1154.10",
+        "End": " 1156.4",
+        "Era name": "Ky\u016bju",
+        "Japanese": "\u4e45\u5bff",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Kyuju"
+    },
+    "93": {
+        "Dates (CE)": "1156.4 - 1159.4",
+        "Start": "1156.4 ",
+        "End": " 1159.4",
+        "Era name": "H\u014dgen",
+        "Japanese": "\u4fdd\u5143",
+        "Period": "Heian",
+        "Events": "1156 H\u014dgen Disturbance; Taira no Kiyomori and Minamoto no Yoshitomo support victorious Emperor Go-Shirakawa.",
+        "Era_no_diacritics": "Hogen"
+    },
+    "94": {
+        "Dates (CE)": "1159.4 - 1160.1",
+        "Start": "1159.4 ",
+        "End": " 1160.1",
+        "Era name": "Heiji",
+        "Japanese": "\u5e73\u6cbb",
+        "Period": "Heian",
+        "Events": "1159 Heiji Disturbance; Kiyomori foils Yoshitomo's attempted coup.",
+        "Era_no_diacritics": "Heiji"
+    },
+    "95": {
+        "Dates (CE)": "1160.1 - 1161.9",
+        "Start": "1160.1 ",
+        "End": " 1161.9",
+        "Era name": "Eiryaku",
+        "Japanese": "\u6c38\u66a6",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Eiryaku"
+    },
+    "96": {
+        "Dates (CE)": "1161.9 - 1163.3",
+        "Start": "1161.9 ",
+        "End": " 1163.3",
+        "Era name": "\u014ch\u014d",
+        "Japanese": "\u5fdc\u4fdd",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Oho"
+    },
+    "97": {
+        "Dates (CE)": "1163.3 - 1165.6",
+        "Start": "1163.3 ",
+        "End": " 1165.6",
+        "Era name": "Ch\u014dkan",
+        "Japanese": "\u9577\u5bdb",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Chokan"
+    },
+    "98": {
+        "Dates (CE)": "1165.6 - 1166.8",
+        "Start": "1165.6 ",
+        "End": " 1166.8",
+        "Era name": "Eiman",
+        "Japanese": "\u6c38\u4e07",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Eiman"
+    },
+    "99": {
+        "Dates (CE)": "1166.8 - 1169.4",
+        "Start": "1166.8 ",
+        "End": " 1169.4",
+        "Era name": "Nin'an",
+        "Japanese": "\u4ec1\u5b89",
+        "Period": "Heian",
+        "Events": "1167 Taira no Kiyomori becomes chancellor\u00a0(daij\u014ddaijin).",
+        "Era_no_diacritics": "Nin'an"
+    },
+    "100": {
+        "Dates (CE)": "1169.4 - 1171.4",
+        "Start": "1169.4 ",
+        "End": " 1171.4",
+        "Era name": "Ka\u014d",
+        "Japanese": "\u5609\u5fdc",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Kao"
+    },
+    "101": {
+        "Dates (CE)": "1171.4 - 1175.7",
+        "Start": "1171.4 ",
+        "End": " 1175.7",
+        "Era name": "Sh\u014dan",
+        "Japanese": "\u627f\u5b89",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Shoan"
+    },
+    "102": {
+        "Dates (CE)": "1175.7 - 1177.8",
+        "Start": "1175.7 ",
+        "End": " 1177.8",
+        "Era name": "Angen",
+        "Japanese": "\u5b89\u5143",
+        "Period": "Heian",
+        "Events": "1175 H\u014dnen preaches Pure Land teachings in Kyoto, leading to formation of the popular Pure Land sect.",
+        "Era_no_diacritics": "Angen"
+    },
+    "103": {
+        "Dates (CE)": "1177.8 - 1181.7",
+        "Start": "1177.8 ",
+        "End": " 1181.7",
+        "Era name": "Jish\u014d",
+        "Japanese": "\u6cbb\u627f",
+        "Period": "Heian",
+        "Events": "1181 Death of Kiyomori.",
+        "Era_no_diacritics": "Jisho"
+    },
+    "104": {
+        "Dates (CE)": "1181.7 - 1182.5",
+        "Start": "1181.7 ",
+        "End": " 1182.5",
+        "Era name": "Y\u014dwa",
+        "Japanese": "\u990a\u548c",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Yowa"
+    },
+    "105": {
+        "Dates (CE)": "1182.5 - 1184.4",
+        "Start": "1182.5 ",
+        "End": " 1184.4",
+        "Era name": "Juei",
+        "Japanese": "\u5bff\u6c38",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Juei"
+    },
+    "106": {
+        "Dates (CE)": "1184.4 - 1185.8",
+        "Start": "1184.4 ",
+        "End": " 1185.8",
+        "Era name": "Genryaku",
+        "Japanese": "\u5143\u66a6",
+        "Period": "Heian",
+        "Events": NaN,
+        "Era_no_diacritics": "Genryaku"
+    },
+    "107": {
+        "Dates (CE)": "1185.8 - 1190.4",
+        "Start": "1185.8 ",
+        "End": " 1190.4",
+        "Era name": "Bunji",
+        "Japanese": "\u6587\u6cbb",
+        "Period": "Kamakura",
+        "Events": "1185 Final defeat of the Heike by Minamoto no Yoshitsune at Dan-no-ura. The establishment by Minamoto no Yoritomo of the shugo-jit\u014d (military governor and land steward) system in the first year of the Bunji era is now taught in Japanese schools to mark the start of the Kamakura Period.",
+        "Era_no_diacritics": "Bunji"
+    },
+    "108": {
+        "Dates (CE)": "1190.4 - 1199.4",
+        "Start": "1190.4 ",
+        "End": " 1199.4",
+        "Era name": "Kenky\u016b",
+        "Japanese": "\u5efa\u4e45",
+        "Period": "Kamakura",
+        "Events": "1192 Kamakura Bakufu established by Minamoto no Yoritomo. Formerly taught in Japanese schools to mark the beginning of the Kamakura Period.",
+        "Era_no_diacritics": "Kenkyu"
+    },
+    "109": {
+        "Dates (CE)": "1199.4 - 1201.2",
+        "Start": "1199.4 ",
+        "End": " 1201.2",
+        "Era name": "Sh\u014dji",
+        "Japanese": "\u6b63\u6cbb",
+        "Period": "Kamakura",
+        "Events": "1199 Death of Yoritomo.",
+        "Era_no_diacritics": "Shoji"
+    },
+    "110": {
+        "Dates (CE)": "1201.2 - 1204.2",
+        "Start": "1201.2 ",
+        "End": " 1204.2",
+        "Era name": "Kennin",
+        "Japanese": "\u5efa\u4ec1",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Kennin"
+    },
+    "111": {
+        "Dates (CE)": "1204.2 - 1206.4",
+        "Start": "1204.2 ",
+        "End": " 1206.4",
+        "Era name": "Genky\u016b",
+        "Japanese": "\u5143\u4e45",
+        "Period": "Kamakura",
+        "Events": "1204 Assassination of Minamoto no Yoriie by H\u014dj\u014d Tokimasa.",
+        "Era_no_diacritics": "Genkyu"
+    },
+    "112": {
+        "Dates (CE)": "1206.4 - 1207.10",
+        "Start": "1206.4 ",
+        "End": "1207.10",
+        "Era name": "Ken'ei",
+        "Japanese": "\u5efa\u6c38",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Ken'ei"
+    },
+    "113": {
+        "Dates (CE)": "1207.10 - 1211.3",
+        "Start": "1207.10",
+        "End": " 1211.3",
+        "Era name": "Sh\u014dgen",
+        "Japanese": "\u627f\u5143",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Shogen"
+    },
+    "114": {
+        "Dates (CE)": "1211.3 - 1213.12",
+        "Start": "1211.3 ",
+        "End": "1213.12",
+        "Era name": "Kenryaku",
+        "Japanese": "\u5efa\u66a6",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Kenryaku"
+    },
+    "115": {
+        "Dates (CE)": "1213.12 - 1219.4",
+        "Start": "1213.12",
+        "End": " 1219.4",
+        "Era name": "Kenp\u014d",
+        "Japanese": "\u5efa\u4fdd",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Kenpo"
+    },
+    "116": {
+        "Dates (CE)": "1219.4 - 1222.4",
+        "Start": "1219.4 ",
+        "End": " 1222.4",
+        "Era name": "J\u014dky\u016b",
+        "Japanese": "\u627f\u4e45",
+        "Period": "Kamakura",
+        "Events": "1221 J\u014dky\u016b Disturbance results in stronger bakufu control.",
+        "Era_no_diacritics": "Jokyu"
+    },
+    "117": {
+        "Dates (CE)": "1222.4 - 1224.11",
+        "Start": "1222.4 ",
+        "End": "1224.11",
+        "Era name": "J\u014d\u014d",
+        "Japanese": "\u8c9e\u5fdc",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Joo"
+    },
+    "118": {
+        "Dates (CE)": "1224.11 - 1225.4",
+        "Start": "1224.11",
+        "End": " 1225.4",
+        "Era name": "Gennin",
+        "Japanese": "\u5143\u4ec1",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Gennin"
+    },
+    "119": {
+        "Dates (CE)": "1225.4 - 1227.12",
+        "Start": "1225.4 ",
+        "End": "1227.12",
+        "Era name": "Karoku",
+        "Japanese": "\u5609\u7984",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Karoku"
+    },
+    "120": {
+        "Dates (CE)": "1227.12 - 1229.3",
+        "Start": "1227.12",
+        "End": " 1229.3",
+        "Era name": "Antei",
+        "Japanese": "\u5b89\u8c9e",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Antei"
+    },
+    "121": {
+        "Dates (CE)": "1229.3 - 1232.4",
+        "Start": "1229.3 ",
+        "End": " 1232.4",
+        "Era name": "Kanki",
+        "Japanese": "\u5bdb\u559c",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Kanki"
+    },
+    "122": {
+        "Dates (CE)": "1232.4 - 1233.4",
+        "Start": "1232.4 ",
+        "End": " 1233.4",
+        "Era name": "J\u014dei",
+        "Japanese": "\u8c9e\u6c38",
+        "Period": "Kamakura",
+        "Events": "1232 J\u014dei (or, more properly, Goseibai) Code promulgated; 51 articles governing samurai behavior.",
+        "Era_no_diacritics": "Joei"
+    },
+    "123": {
+        "Dates (CE)": "1233.4 - 1234.11",
+        "Start": "1233.4 ",
+        "End": "1234.11",
+        "Era name": "Tenpuku",
+        "Japanese": "\u5929\u798f",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Tenpuku"
+    },
+    "124": {
+        "Dates (CE)": "1234.11 - 1235.9",
+        "Start": "1234.11",
+        "End": " 1235.9",
+        "Era name": "Bunryaku",
+        "Japanese": "\u6587\u66a6",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Bunryaku"
+    },
+    "125": {
+        "Dates (CE)": "1235.9 - 1238.11",
+        "Start": "1235.9 ",
+        "End": "1238.11",
+        "Era name": "Katei",
+        "Japanese": "\u5609\u798e",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Katei"
+    },
+    "126": {
+        "Dates (CE)": "1238.11 - 1239.2",
+        "Start": "1238.11",
+        "End": " 1239.2",
+        "Era name": "Ryakunin",
+        "Japanese": "\u66a6\u4ec1",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Ryakunin"
+    },
+    "127": {
+        "Dates (CE)": "1239.2 - 1240.7",
+        "Start": "1239.2 ",
+        "End": " 1240.7",
+        "Era name": "En'\u014d",
+        "Japanese": "\u5ef6\u5fdc",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "En'o"
+    },
+    "128": {
+        "Dates (CE)": "1240.7 - 1243.2",
+        "Start": "1240.7 ",
+        "End": " 1243.2",
+        "Era name": "Ninji",
+        "Japanese": "\u4ec1\u6cbb",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Ninji"
+    },
+    "129": {
+        "Dates (CE)": "1243.2 - 1247. 2",
+        "Start": "1243.2 ",
+        "End": "1247. 2",
+        "Era name": "Kangen",
+        "Japanese": "\u5bdb\u5143",
+        "Period": "Kamakura",
+        "Events": "1244 Construction of Eiheiji.",
+        "Era_no_diacritics": "Kangen"
+    },
+    "130": {
+        "Dates (CE)": "1247.2 - 1249.3",
+        "Start": "1247.2 ",
+        "End": " 1249.3",
+        "Era name": "H\u014dji",
+        "Japanese": "\u5b9d\u6cbb",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Hoji"
+    },
+    "131": {
+        "Dates (CE)": "1249.3 - 1256.10",
+        "Start": "1249.3 ",
+        "End": "1256.10",
+        "Era name": "Kench\u014d",
+        "Japanese": "\u5efa\u9577",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Kencho"
+    },
+    "132": {
+        "Dates (CE)": "1256.10 - 1257.3",
+        "Start": "1256.10",
+        "End": " 1257.3",
+        "Era name": "K\u014dgen",
+        "Japanese": "\u5eb7\u5143",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Kogen"
+    },
+    "133": {
+        "Dates (CE)": "1257.3 - 1259.3",
+        "Start": "1257.3 ",
+        "End": " 1259.3",
+        "Era name": "Sh\u014dka",
+        "Japanese": "\u6b63\u5609",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Shoka"
+    },
+    "134": {
+        "Dates (CE)": "1259.3 - 1260.4",
+        "Start": "1259.3 ",
+        "End": " 1260.4",
+        "Era name": "Sh\u014dgen",
+        "Japanese": "\u6b63\u5143",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Shogen"
+    },
+    "135": {
+        "Dates (CE)": "1260.4 - 1261.2",
+        "Start": "1260.4 ",
+        "End": " 1261.2",
+        "Era name": "Bun'\u014d",
+        "Japanese": "\u6587\u5fdc",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Bun'o"
+    },
+    "136": {
+        "Dates (CE)": "1261.2 - 1264.2",
+        "Start": "1261.2 ",
+        "End": " 1264.2",
+        "Era name": "K\u014dch\u014d",
+        "Japanese": "\u5f18\u9577",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Kocho"
+    },
+    "137": {
+        "Dates (CE)": "1264.2 - 1275.4",
+        "Start": "1264.2 ",
+        "End": " 1275.4",
+        "Era name": "Bun'ei",
+        "Japanese": "\u6587\u6c38",
+        "Period": "Kamakura",
+        "Events": "1266 Kublai Khan seeks relations with Japan, sends envoys in 1268. 1274 Mongols attempt first invasion of Japan.",
+        "Era_no_diacritics": "Bun'ei"
+    },
+    "138": {
+        "Dates (CE)": "1275.4 - 1278.2",
+        "Start": "1275.4 ",
+        "End": " 1278.2",
+        "Era name": "Kenji",
+        "Japanese": "\u5efa\u6cbb",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Kenji"
+    },
+    "139": {
+        "Dates (CE)": "1278.2 - 1288.4",
+        "Start": "1278.2 ",
+        "End": " 1288.4",
+        "Era name": "K\u014dan",
+        "Japanese": "\u5f18\u5b89",
+        "Period": "Kamakura",
+        "Events": "1281 Mongols attempt second invasion of Japan.",
+        "Era_no_diacritics": "Koan"
+    },
+    "140": {
+        "Dates (CE)": "1288.4 - 1293.8",
+        "Start": "1288.4 ",
+        "End": " 1293.8",
+        "Era name": "Sh\u014d\u014d",
+        "Japanese": "\u6b63\u5fdc",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Shoo"
+    },
+    "141": {
+        "Dates (CE)": "1293.8 - 1299.4",
+        "Start": "1293.8 ",
+        "End": " 1299.4",
+        "Era name": "Einin",
+        "Japanese": "\u6c38\u4ec1",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Einin"
+    },
+    "142": {
+        "Dates (CE)": "1299.4 - 1302.11",
+        "Start": "1299.4 ",
+        "End": "1302.11",
+        "Era name": "Sh\u014dan",
+        "Japanese": "\u6b63\u5b89",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Shoan"
+    },
+    "143": {
+        "Dates (CE)": "1302.11 - 1303.8",
+        "Start": "1302.11",
+        "End": " 1303.8",
+        "Era name": "Kengen",
+        "Japanese": "\u4e7e\u5143",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Kengen"
+    },
+    "144": {
+        "Dates (CE)": "1303.8 - 1306.12",
+        "Start": "1303.8 ",
+        "End": "1306.12",
+        "Era name": "Kagen",
+        "Japanese": "\u5609\u5143",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Kagen"
+    },
+    "145": {
+        "Dates (CE)": "1306.12 - 1308.10",
+        "Start": "1306.12",
+        "End": "1308.10",
+        "Era name": "Tokuji",
+        "Japanese": "\u5fb3\u6cbb",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Tokuji"
+    },
+    "146": {
+        "Dates (CE)": "1308.10 - 1311.4",
+        "Start": "1308.10",
+        "End": " 1311.4",
+        "Era name": "Enky\u014d",
+        "Japanese": "\u5ef6\u6176",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Enkyo"
+    },
+    "147": {
+        "Dates (CE)": "1311.4 - 1312.3",
+        "Start": "1311.4 ",
+        "End": " 1312.3",
+        "Era name": "\u014cch\u014d",
+        "Japanese": "\u5fdc\u9577",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Ocho"
+    },
+    "148": {
+        "Dates (CE)": "1312.3 - 1317.2",
+        "Start": "1312.3 ",
+        "End": " 1317.2",
+        "Era name": "Sh\u014dwa",
+        "Japanese": "\u6b63\u548c",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Showa"
+    },
+    "149": {
+        "Dates (CE)": "1317.2 - 1319.4",
+        "Start": "1317.2 ",
+        "End": " 1319.4",
+        "Era name": "Bunp\u014d",
+        "Japanese": "\u6587\u4fdd",
+        "Period": "Kamakura",
+        "Events": "1318 Emperor Go-Daigo ascends throne.",
+        "Era_no_diacritics": "Bunpo"
+    },
+    "150": {
+        "Dates (CE)": "1319.4 - 1321.2",
+        "Start": "1319.4 ",
+        "End": " 1321.2",
+        "Era name": "Gen'\u014d",
+        "Japanese": "\u5143\u5fdc",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Gen'o"
+    },
+    "151": {
+        "Dates (CE)": "1321.2 - 1324.12",
+        "Start": "1321.2 ",
+        "End": "1324.12",
+        "Era name": "Genk\u014d",
+        "Japanese": "\u5143\u4ea8",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Genko"
+    },
+    "152": {
+        "Dates (CE)": "1324.12 - 1326.4",
+        "Start": "1324.12",
+        "End": " 1326.4",
+        "Era name": "Sh\u014dch\u016b",
+        "Japanese": "\u6b63\u4e2d",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Shochu"
+    },
+    "153": {
+        "Dates (CE)": "1326.4 - 1329.8",
+        "Start": "1326.4 ",
+        "End": " 1329.8",
+        "Era name": "Karyaku",
+        "Japanese": "\u5609\u66a6",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Karyaku"
+    },
+    "154": {
+        "Dates (CE)": "1329.8 - 1331.8",
+        "Start": "1329.8 ",
+        "End": " 1331.8",
+        "Era name": "Gentoku",
+        "Japanese": "\u5143\u5fb3",
+        "Period": "Kamakura",
+        "Events": NaN,
+        "Era_no_diacritics": "Gentoku"
+    },
+    "155": {
+        "Dates (CE)": "1331.8 - 1334.1",
+        "Start": "1331.8 ",
+        "End": " 1334.1",
+        "Era name": "Genk\u014d",
+        "Japanese": "\u5143\u5f18",
+        "Period": "Muromachi",
+        "Events": "Emperor Go-Daigo adopted the era name \"Genk\u014d\" in 1331, but Emperor K\u014dgon of the Northern Court continued to use the previous name \"Gentoku\" until until 1332.4 (Gentoku 4), when he promulgated the \"Sh\u014dky\u014d\" era name (see below). The Sh\u014dky\u014d era thus marks the start of alternative reign names that continued throughout the Northern and Southern Courts period (1336-1392). In 1333.5, however, the overthrow of the Kamakura Bakufu resulted in the disenthronement of K\u014dgon, so until 1338, the Northern Court reverted to \"Kenmu.\" 1333\u00a0 Kamakura Bakufu overthrown.",
+        "Era_no_diacritics": "Genko"
+    },
+    "156": {
+        "Dates (CE)": "1334.1 - 1336.2",
+        "Start": "1334.1 ",
+        "End": " 1336.2",
+        "Era name": "Kenmu",
+        "Japanese": "\u5efa\u6b66",
+        "Period": "Muromachi",
+        "Events": "\"Kenmu\" was used by Emperor Go-Daigo until 1336.2, when the era name for the Southern Court was changed to \"Engen.\" The Northern Court under Emperor K\u014dmy\u014d continued to use \"Kenmu\" until 1338.8, when the era name was changed to \"Ryaku\u014d.\"",
+        "Era_no_diacritics": "Kenmu"
+    },
+    "157": {
+        "Dates (CE)": "1336.2 - 1340.4",
+        "Start": "1336.2 ",
+        "End": " 1340.4",
+        "Era name": "Engen",
+        "Japanese": "\u5ef6\u5143",
+        "Period": "Muromachi",
+        "Events": "1336: Beginning of the Northern and Southern Courts period (until 1392), with Emperor K\u014dmy\u014d in Kyoto and Emperor Go-Daigo at Yoshino in Nara. The year is Engen 1 for the Southern Court and Kenmu 3 for the Northern Court. 1338 Muromachi Bakufu established in Kyoto by Ashikaga Takauji.",
+        "Era_no_diacritics": "Engen"
+    },
+    "158": {
+        "Dates (CE)": "1340.4 - 1346.12",
+        "Start": "1340.4 ",
+        "End": "1346.12",
+        "Era name": "K\u014dkoku",
+        "Japanese": "\u8208\u56fd",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Kokoku"
+    },
+    "159": {
+        "Dates (CE)": "1346.12 - 1370.7",
+        "Start": "1346.12",
+        "End": " 1370.7",
+        "Era name": "Sh\u014dhei",
+        "Japanese": "\u6b63\u5e73",
+        "Period": "Muromachi",
+        "Events": "1358 Death of Ashikaga Takauji.",
+        "Era_no_diacritics": "Shohei"
+    },
+    "160": {
+        "Dates (CE)": "1370.7 - 1372.10",
+        "Start": "1370.7 ",
+        "End": "1372.10",
+        "Era name": "Kentoku",
+        "Japanese": "\u5efa\u5fb3",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Kentoku"
+    },
+    "161": {
+        "Dates (CE)": "1372.10 - 1375.5",
+        "Start": "1372.10",
+        "End": " 1375.5",
+        "Era name": "Bunch\u016b",
+        "Japanese": "\u6587\u4e2d",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Bunchu"
+    },
+    "162": {
+        "Dates (CE)": "1375.5 - 1381.2",
+        "Start": "1375.5 ",
+        "End": " 1381.2",
+        "Era name": "Tenju",
+        "Japanese": "\u5929\u6388",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Tenju"
+    },
+    "163": {
+        "Dates (CE)": "1381.2 - 1384.4",
+        "Start": "1381.2 ",
+        "End": " 1384.4",
+        "Era name": "K\u014dwa",
+        "Japanese": "\u5f18\u548c",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Kowa"
+    },
+    "164": {
+        "Dates (CE)": "1384.4 - 1392.10*",
+        "Start": "1384.4 ",
+        "End": "392.10*",
+        "Era name": "Gench\u016b",
+        "Japanese": "\u5143\u4e2d",
+        "Period": "Muromachi",
+        "Events": "1391-92 Meitoku Rebellion put down by Muromachi Bakufu. 1392 Reunification of Northern and Southern Courts in Gench\u016b 9 (Meitoku 3 for the Northern Court).",
+        "Era_no_diacritics": "Genchu"
+    },
+    "165": {
+        "Dates (CE)": "1332.4 - 1334.1",
+        "Start": "1332.4 ",
+        "End": " 1334.1",
+        "Era name": "Sh\u014dky\u014d",
+        "Japanese": "\u6b63\u6176",
+        "Period": "Muromachi",
+        "Events": "1332 Beginning of reign names considered exclusive to the Northern Court. \"Sh\u014dky\u014d\" was used at the court of Emperor K\u014dgon (r.\u00a01331-1333); a return to \"Kenmu\" after K\u014dgon's disenthronement lasted until 1336.2, when Emperor Go-Daigo of the Southern Court changed his court's era name to Engen (see above). The Kenmu era name thereafter continued in use only at the Northern Court until 1338, when \"Ryaku\u014d\" was adopted. The darker shading indicates Northern Court era names.",
+        "Era_no_diacritics": "Shokyo"
+    },
+    "166": {
+        "Dates (CE)": "1338.8 - 1342.4",
+        "Start": "1338.8 ",
+        "End": " 1342.4",
+        "Era name": "Ryaku\u014d",
+        "Japanese": "\u66a6\u5fdc",
+        "Period": "Muromachi",
+        "Events": "1338 Muromachi Bakufu established in Kyoto by Ashikaga Takauji.",
+        "Era_no_diacritics": "Ryakuo"
+    },
+    "167": {
+        "Dates (CE)": "1342.4 - 1345.10",
+        "Start": "1342.4 ",
+        "End": "1345.10",
+        "Era name": "K\u014dei",
+        "Japanese": "\u5eb7\u6c38",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Koei"
+    },
+    "168": {
+        "Dates (CE)": "1345.10 - 1350.2",
+        "Start": "1345.10",
+        "End": " 1350.2",
+        "Era name": "J\u014dwa",
+        "Japanese": "\u8c9e\u548c",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Jowa"
+    },
+    "169": {
+        "Dates (CE)": "1350.2 - 1352.9",
+        "Start": "1350.2 ",
+        "End": " 1352.9",
+        "Era name": "Kann\u014d",
+        "Japanese": "\u89b3\u5fdc",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Kanno"
+    },
+    "170": {
+        "Dates (CE)": "1352.9 - 1356.3",
+        "Start": "1352.9 ",
+        "End": " 1356.3",
+        "Era name": "Bunwa",
+        "Japanese": "\u6587\u548c",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Bunwa"
+    },
+    "171": {
+        "Dates (CE)": "1356.3 - 1361.3",
+        "Start": "1356.3 ",
+        "End": " 1361.3",
+        "Era name": "Enbun",
+        "Japanese": "\u5ef6\u6587",
+        "Period": "Muromachi",
+        "Events": "1358 Death of Ashikaga Takauji.",
+        "Era_no_diacritics": "Enbun"
+    },
+    "172": {
+        "Dates (CE)": "1361.3 - 1362.9",
+        "Start": "1361.3 ",
+        "End": " 1362.9",
+        "Era name": "K\u014dan",
+        "Japanese": "\u5eb7\u5b89",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Koan"
+    },
+    "173": {
+        "Dates (CE)": "1362.9 - 1368.2",
+        "Start": "1362.9 ",
+        "End": " 1368.2",
+        "Era name": "J\u014dji",
+        "Japanese": "\u8c9e\u6cbb",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Joji"
+    },
+    "174": {
+        "Dates (CE)": "1368.2 - 1375.2",
+        "Start": "1368.2 ",
+        "End": " 1375.2",
+        "Era name": "\u014can",
+        "Japanese": "\u5fdc\u5b89",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Oan"
+    },
+    "175": {
+        "Dates (CE)": "1375.2 - 1379.3",
+        "Start": "1375.2 ",
+        "End": " 1379.3",
+        "Era name": "Eiwa",
+        "Japanese": "\u6c38\u548c",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Eiwa"
+    },
+    "176": {
+        "Dates (CE)": "1379.3 - 1381.2",
+        "Start": "1379.3 ",
+        "End": " 1381.2",
+        "Era name": "K\u014dryaku",
+        "Japanese": "\u5eb7\u66a6",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Koryaku"
+    },
+    "177": {
+        "Dates (CE)": "1381.2 - 1384.2",
+        "Start": "1381.2 ",
+        "End": " 1384.2",
+        "Era name": "Eitoku",
+        "Japanese": "\u6c38\u5fb3",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Eitoku"
+    },
+    "178": {
+        "Dates (CE)": "1384.2 - 1387.8",
+        "Start": "1384.2 ",
+        "End": " 1387.8",
+        "Era name": "Shitoku",
+        "Japanese": "\u81f3\u5fb3",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Shitoku"
+    },
+    "179": {
+        "Dates (CE)": "1387.8 - 1389.2",
+        "Start": "1387.8 ",
+        "End": " 1389.2",
+        "Era name": "Kakei",
+        "Japanese": "\u5609\u6176",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Kakei"
+    },
+    "180": {
+        "Dates (CE)": "1389.2 - 1390.3",
+        "Start": "1389.2 ",
+        "End": " 1390.3",
+        "Era name": "K\u014d\u014d",
+        "Japanese": "\u5eb7\u5fdc",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Koo"
+    },
+    "181": {
+        "Dates (CE)": "1390.3 - 1394.7",
+        "Start": "1390.3 ",
+        "End": " 1394.7",
+        "Era name": "Meitoku",
+        "Japanese": "\u660e\u5fb3",
+        "Period": "Muromachi",
+        "Events": "1391-92 Meitoku Rebellion put down by Muromachi Bakufu. 1392 Meitoku 3 (Gench\u016b 9 for the Southern Court) marks the return to a unified sequence of era names under Emperor Go-Komatsu of the Northern Court.",
+        "Era_no_diacritics": "Meitoku"
+    },
+    "182": {
+        "Dates (CE)": "1394.7 - 1428.4",
+        "Start": "1394.7 ",
+        "End": " 1428.4",
+        "Era name": "\u014cei",
+        "Japanese": "\u5fdc\u6c38",
+        "Period": "Muromachi",
+        "Events": "1397 Kinkakuji built by Ashikaga Yoshimitsu.",
+        "Era_no_diacritics": "Oei"
+    },
+    "183": {
+        "Dates (CE)": "1428.4 - 1429.9",
+        "Start": "1428.4 ",
+        "End": " 1429.9",
+        "Era name": "Sh\u014dch\u014d",
+        "Japanese": "\u6b63\u9577",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Shocho"
+    },
+    "184": {
+        "Dates (CE)": "1429.9 - 1441.2",
+        "Start": "1429.9 ",
+        "End": " 1441.2",
+        "Era name": "Eiky\u014d",
+        "Japanese": "\u6c38\u4eab",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Eikyo"
+    },
+    "185": {
+        "Dates (CE)": "1441.2 - 1444.2",
+        "Start": "1441.2 ",
+        "End": " 1444.2",
+        "Era name": "Kakitsu",
+        "Japanese": "\u5609\u5409",
+        "Period": "Muromachi",
+        "Events": "1441 Kakitsu Disturbance, resulting in the assassination of Ashikaga Yoshinori.",
+        "Era_no_diacritics": "Kakitsu"
+    },
+    "186": {
+        "Dates (CE)": "1444.2 - 1449.7",
+        "Start": "1444.2 ",
+        "End": " 1449.7",
+        "Era name": "Bun'an",
+        "Japanese": "\u6587\u5b89",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Bun'an"
+    },
+    "187": {
+        "Dates (CE)": "1449.7 - 1452.7",
+        "Start": "1449.7 ",
+        "End": " 1452.7",
+        "Era name": "H\u014dtoku",
+        "Japanese": "\u5b9d\u5fb3",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Hotoku"
+    },
+    "188": {
+        "Dates (CE)": "1452.7 - 1455.7",
+        "Start": "1452.7 ",
+        "End": " 1455.7",
+        "Era name": "Ky\u014dtoku",
+        "Japanese": "\u4eab\u5fb3",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Kyotoku"
+    },
+    "189": {
+        "Dates (CE)": "1455.7 - 1457.9",
+        "Start": "1455.7 ",
+        "End": " 1457.9",
+        "Era name": "K\u014dsh\u014d",
+        "Japanese": "\u5eb7\u6b63",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Kosho"
+    },
+    "190": {
+        "Dates (CE)": "1457.9 - 1460.12",
+        "Start": "1457.9 ",
+        "End": "1460.12",
+        "Era name": "Ch\u014droku",
+        "Japanese": "\u9577\u7984",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Choroku"
+    },
+    "191": {
+        "Dates (CE)": "1460.12 - 1466.2",
+        "Start": "1460.12",
+        "End": " 1466.2",
+        "Era name": "Kansh\u014d",
+        "Japanese": "\u5bdb\u6b63",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Kansho"
+    },
+    "192": {
+        "Dates (CE)": "1466.2 - 1467.3",
+        "Start": "1466.2 ",
+        "End": " 1467.3",
+        "Era name": "Bunsh\u014d",
+        "Japanese": "\u6587\u6b63",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Bunsho"
+    },
+    "193": {
+        "Dates (CE)": "1467.3 - 1469.4",
+        "Start": "1467.3 ",
+        "End": " 1469.4",
+        "Era name": "\u014cnin",
+        "Japanese": "\u5fdc\u4ec1",
+        "Period": "Muromachi",
+        "Events": "1467 \u014cnin War begins, continuing until 1477.",
+        "Era_no_diacritics": "Onin"
+    },
+    "194": {
+        "Dates (CE)": "1469.4 - 1487.7",
+        "Start": "1469.4 ",
+        "End": " 1487.7",
+        "Era name": "Bunmei",
+        "Japanese": "\u6587\u660e",
+        "Period": "Muromachi",
+        "Events": "1480s Sengoku (Warring States) daimy\u014d emerge. The Sengoku period is sometimes said to start in 1467, sometimes in 1493; the end is variously marked at 1568, 1573, or 1590.",
+        "Era_no_diacritics": "Bunmei"
+    },
+    "195": {
+        "Dates (CE)": "1487.7 - 1489.8",
+        "Start": "1487.7 ",
+        "End": " 1489.8",
+        "Era name": "Ch\u014dky\u014d",
+        "Japanese": "\u9577\u4eab",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Chokyo"
+    },
+    "196": {
+        "Dates (CE)": "1489.8 - 1492.7",
+        "Start": "1489.8 ",
+        "End": " 1492.7",
+        "Era name": "Entoku",
+        "Japanese": "\u5ef6\u5fb3",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Entoku"
+    },
+    "197": {
+        "Dates (CE)": "1492.7 - 1501.2",
+        "Start": "1492.7 ",
+        "End": " 1501.2",
+        "Era name": "Mei\u014d",
+        "Japanese": "\u660e\u5fdc",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Meio"
+    },
+    "198": {
+        "Dates (CE)": "1501.2 - 1504.2",
+        "Start": "1501.2 ",
+        "End": " 1504.2",
+        "Era name": "Bunki",
+        "Japanese": "\u6587\u4e80",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Bunki"
+    },
+    "199": {
+        "Dates (CE)": "1504.2 - 1521.8",
+        "Start": "1504.2 ",
+        "End": " 1521.8",
+        "Era name": "Eish\u014d",
+        "Japanese": "\u6c38\u6b63",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Eisho"
+    },
+    "200": {
+        "Dates (CE)": "1521.8 - 1528.8",
+        "Start": "1521.8 ",
+        "End": " 1528.8",
+        "Era name": "Taiei",
+        "Japanese": "\u5927\u6c38",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Taiei"
+    },
+    "201": {
+        "Dates (CE)": "1528.8 - 1532.7",
+        "Start": "1528.8 ",
+        "End": " 1532.7",
+        "Era name": "Ky\u014droku",
+        "Japanese": "\u4eab\u7984",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Kyoroku"
+    },
+    "202": {
+        "Dates (CE)": "1532.7 - 1555.10",
+        "Start": "1532.7 ",
+        "End": "1555.10",
+        "Era name": "Tenbun",
+        "Japanese": "\u5929\u6587",
+        "Period": "Muromachi",
+        "Events": "1543 Portuguese traders introduce Western muskets and canon into Japan. 1549 Francis Xavier lands at Kagoshima and begins Christian mission.",
+        "Era_no_diacritics": "Tenbun"
+    },
+    "203": {
+        "Dates (CE)": "1555.10 - 1558.2",
+        "Start": "1555.10",
+        "End": " 1558.2",
+        "Era name": "K\u014dji",
+        "Japanese": "\u5f18\u6cbb",
+        "Period": "Muromachi",
+        "Events": NaN,
+        "Era_no_diacritics": "Koji"
+    },
+    "204": {
+        "Dates (CE)": "1558.2 - 1570.4",
+        "Start": "1558.2 ",
+        "End": " 1570.4",
+        "Era name": "Eiroku",
+        "Japanese": "\u6c38\u7984",
+        "Period": "Muromachi",
+        "Events": "1560 Oda Nobunaga defeats Imagawa Yoshimoto in the Battle of Okehazama, concludes an alliance with Tokugawa Ieyasu in 1562.",
+        "Era_no_diacritics": "Eiroku"
+    },
+    "205": {
+        "Dates (CE)": "1570.4 - 1573.7",
+        "Start": "1570.4 ",
+        "End": " 1573.7",
+        "Era name": "Genki",
+        "Japanese": "\u5143\u4e80",
+        "Period": "Muromachi",
+        "Events": "1571 Nobunaga destroys Enryakuji, headquarters of the Tendai sect on Mt. Hiei near Kyoto.",
+        "Era_no_diacritics": "Genki"
+    },
+    "206": {
+        "Dates (CE)": "1573.7 - 1592.12",
+        "Start": "1573.7 ",
+        "End": "1592.12",
+        "Era name": "Tensh\u014d",
+        "Japanese": "\u5929\u6b63",
+        "Period": "Azuchi-Momoyama",
+        "Events": "1582 Nobunaga betrayed by Akechi Mitsuhide; Toyotomi Hideyoshi avenges Nobunaga's death, enters Osaka Castle in 1583. 1585 Hideyoshi becomes imperial regent (kanpaku). 1592 After defeating the Go-H\u014dj\u014d at Odawara in 1590, Hideyoshi invades Korea; truce reached in 1596.",
+        "Era_no_diacritics": "Tensho"
+    },
+    "207": {
+        "Dates (CE)": "1592.12 - 1596.10",
+        "Start": "1592.12",
+        "End": "1596.10",
+        "Era name": "Bunroku",
+        "Japanese": "\u6587\u7984",
+        "Period": "Azuchi-Momoyama",
+        "Events": NaN,
+        "Era_no_diacritics": "Bunroku"
+    },
+    "208": {
+        "Dates (CE)": "1596.10 - 1615.7",
+        "Start": "1596.10",
+        "End": " 1615.7",
+        "Era name": "Keich\u014d",
+        "Japanese": "\u6176\u9577",
+        "Period": "Edo (Tokugawa)",
+        "Events": "1597 Hideyoshi moves to Osaka Castle, orders second invasion of Korea. 1598 Hideyoshi dies and Japanese armies leave Korea. 1600 Tokugawa Ieyasu wins victory in the Battle of Sekigahara, achieving military predominance; Edo (Tokugawa) Bakufu established in 1603. 1615 Defeat of Toyotomi Hideyori at Osaka.",
+        "Era_no_diacritics": "Keicho"
+    },
+    "209": {
+        "Dates (CE)": "1615.7 - 1624.2",
+        "Start": "1615.7 ",
+        "End": " 1624.2",
+        "Era name": "Genna",
+        "Japanese": "\u5143\u548c",
+        "Period": "Edo (Tokugawa)",
+        "Events": "1616 Death of Ieyasu, interred first at Mt. Kun\u014d in Shizuoka and later at Nikk\u014d.",
+        "Era_no_diacritics": "Genna"
+    },
+    "210": {
+        "Dates (CE)": "1624.2 - 1644.12",
+        "Start": "1624.2 ",
+        "End": "1644.12",
+        "Era name": "Kan'ei",
+        "Japanese": "\u5bdb\u6c38",
+        "Period": "Edo (Tokugawa)",
+        "Events": "1617 Western trading ships limited to Nagasaki and Hirado; Japanese ships prohibited from travelling abroad in 1635; Chinese traders limited to Nagasaki the same year; Portuguese ships forbidden to land from 1639; Dutch trading mission moved to Dejima in Nagasaki in 1641, completing the implementation of the bakufu's policy of national seclusion (sakoku). 1617 Licensed quarter at Yoshiwara in Edo authorized. 1635 System of alternate service (sankin k\u014dtai) institutionalized. 1637 Shimabara Rebellion.",
+        "Era_no_diacritics": "Kan'ei"
+    },
+    "211": {
+        "Dates (CE)": "1644.12 - 1648.2",
+        "Start": "1644.12",
+        "End": " 1648.2",
+        "Era name": "Sh\u014dh\u014d",
+        "Japanese": "\u6b63\u4fdd",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Shoho"
+    },
+    "212": {
+        "Dates (CE)": "1648.2 - 1652.9",
+        "Start": "1648.2 ",
+        "End": " 1652.9",
+        "Era name": "Keian",
+        "Japanese": "\u6176\u5b89",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Keian"
+    },
+    "213": {
+        "Dates (CE)": "1652.9 - 1655.4",
+        "Start": "1652.9 ",
+        "End": " 1655.4",
+        "Era name": "Sh\u014d\u014d",
+        "Japanese": "\u627f\u5fdc",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Shoo"
+    },
+    "214": {
+        "Dates (CE)": "1655.4 - 1658.7",
+        "Start": "1655.4 ",
+        "End": " 1658.7",
+        "Era name": "Meireki",
+        "Japanese": "\u660e\u66a6",
+        "Period": "Edo (Tokugawa)",
+        "Events": "1657 Much of Edo destroyed in a great fire.",
+        "Era_no_diacritics": "Meireki"
+    },
+    "215": {
+        "Dates (CE)": "1658.7 - 1661.4",
+        "Start": "1658.7 ",
+        "End": " 1661.4",
+        "Era name": "Manji",
+        "Japanese": "\u4e07\u6cbb",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Manji"
+    },
+    "216": {
+        "Dates (CE)": "1661.4 - 1673.9",
+        "Start": "1661.4 ",
+        "End": " 1673.9",
+        "Era name": "Kanbun",
+        "Japanese": "\u5bdb\u6587",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Kanbun"
+    },
+    "217": {
+        "Dates (CE)": "1673.9 - 1681.9",
+        "Start": "1673.9 ",
+        "End": " 1681.9",
+        "Era name": "Enp\u014d",
+        "Japanese": "\u5ef6\u5b9d",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Enpo"
+    },
+    "218": {
+        "Dates (CE)": "1681.9 - 1684.2",
+        "Start": "1681.9 ",
+        "End": " 1684.2",
+        "Era name": "Tenna",
+        "Japanese": "\u5929\u548c",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Tenna"
+    },
+    "219": {
+        "Dates (CE)": "1684.2 - 1688.9",
+        "Start": "1684.2 ",
+        "End": " 1688.9",
+        "Era name": "J\u014dky\u014d",
+        "Japanese": "\u8c9e\u4eab",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Jokyo"
+    },
+    "220": {
+        "Dates (CE)": "1688.9 - 1704.3",
+        "Start": "1688.9 ",
+        "End": " 1704.3",
+        "Era name": "Genroku",
+        "Japanese": "\u5143\u7984",
+        "Period": "Edo (Tokugawa)",
+        "Events": "A high point in Japanese culture reached with the activities of Chikamatsu Monzaemon (puppet theater), Ihara Saikaku (fiction), and Matsuo Bash\u014d (haikai/haiku). 1702 Vendetta of the Ak\u014d r\u014dnin; dramatized and first performed at the Takemoto-za in Osaka in 1748.",
+        "Era_no_diacritics": "Genroku"
+    },
+    "221": {
+        "Dates (CE)": "1704.3 - 1711.4",
+        "Start": "1704.3 ",
+        "End": " 1711.4",
+        "Era name": "H\u014dei",
+        "Japanese": "\u5b9d\u6c38",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Hoei"
+    },
+    "222": {
+        "Dates (CE)": "1711.4 - 1716.6",
+        "Start": "1711.4 ",
+        "End": " 1716.6",
+        "Era name": "Sh\u014dtoku",
+        "Japanese": "\u6b63\u5fb3",
+        "Period": "Edo (Tokugawa)",
+        "Events": "1716 First major reform of Tokugawa shogunate under Yoshimune.",
+        "Era_no_diacritics": "Shotoku"
+    },
+    "223": {
+        "Dates (CE)": "1716.6 - 1736.4",
+        "Start": "1716.6 ",
+        "End": " 1736.4",
+        "Era name": "Ky\u014dh\u014d",
+        "Japanese": "\u4eab\u4fdd",
+        "Period": "Edo (Tokugawa)",
+        "Events": "1733 First violent uprisings by commoners in Edo protesting high prices.",
+        "Era_no_diacritics": "Kyoho"
+    },
+    "224": {
+        "Dates (CE)": "1736.4 - 1741.2",
+        "Start": "1736.4 ",
+        "End": " 1741.2",
+        "Era name": "Genbun",
+        "Japanese": "\u5143\u6587",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Genbun"
+    },
+    "225": {
+        "Dates (CE)": "1741.2 - 1744.2",
+        "Start": "1741.2 ",
+        "End": " 1744.2",
+        "Era name": "Kanp\u014d",
+        "Japanese": "\u5bdb\u4fdd",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Kanpo"
+    },
+    "226": {
+        "Dates (CE)": "1744.2 - 1748.7",
+        "Start": "1744.2 ",
+        "End": " 1748.7",
+        "Era name": "Enky\u014d",
+        "Japanese": "\u5ef6\u4eab",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Enkyo"
+    },
+    "227": {
+        "Dates (CE)": "1748.7 - 1751.10",
+        "Start": "1748.7 ",
+        "End": "1751.10",
+        "Era name": "Kan'en",
+        "Japanese": "\u5bdb\u5ef6",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Kan'en"
+    },
+    "228": {
+        "Dates (CE)": "1751.10 - 1764.6",
+        "Start": "1751.10",
+        "End": " 1764.6",
+        "Era name": "H\u014dreki",
+        "Japanese": "\u5b9d\u66a6",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Horeki"
+    },
+    "229": {
+        "Dates (CE)": "1764.6 - 1772.11",
+        "Start": "1764.6 ",
+        "End": "1772.11",
+        "Era name": "Meiwa",
+        "Japanese": "\u660e\u548c",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Meiwa"
+    },
+    "230": {
+        "Dates (CE)": "1772.11 - 1781.4",
+        "Start": "1772.11",
+        "End": " 1781.4",
+        "Era name": "An'ei",
+        "Japanese": "\u5b89\u6c38",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "An'ei"
+    },
+    "231": {
+        "Dates (CE)": "1781.4 - 1789.1",
+        "Start": "1781.4 ",
+        "End": " 1789.1",
+        "Era name": "Tenmei",
+        "Japanese": "\u5929\u660e",
+        "Period": "Edo (Tokugawa)",
+        "Events": "1787 Matsudaira Sadanobu appointed senior councilor, initiates the Kansei Reforms; forced into retirement in 1793.",
+        "Era_no_diacritics": "Tenmei"
+    },
+    "232": {
+        "Dates (CE)": "1789.1 - 1801.2",
+        "Start": "1789.1 ",
+        "End": " 1801.2",
+        "Era name": "Kansei",
+        "Japanese": "\u5bdb\u653f",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Kansei"
+    },
+    "233": {
+        "Dates (CE)": "1801.2 - 1804.2",
+        "Start": "1801.2 ",
+        "End": " 1804.2",
+        "Era name": "Ky\u014dwa",
+        "Japanese": "\u4eab\u548c",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Kyowa"
+    },
+    "234": {
+        "Dates (CE)": "1804.2 - 1818.4",
+        "Start": "1804.2 ",
+        "End": " 1818.4",
+        "Era name": "Bunka",
+        "Japanese": "\u6587\u5316",
+        "Period": "Edo (Tokugawa)",
+        "Events": "1811 Shogunate establishes an office to translate Western documents.",
+        "Era_no_diacritics": "Bunka"
+    },
+    "235": {
+        "Dates (CE)": "1818.4 - 1830.12",
+        "Start": "1818.4 ",
+        "End": "1830.12",
+        "Era name": "Bunsei",
+        "Japanese": "\u6587\u653f",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Bunsei"
+    },
+    "236": {
+        "Dates (CE)": "1830.12 - 1844.12",
+        "Start": "1830.12",
+        "End": "1844.12",
+        "Era name": "Tenp\u014d",
+        "Japanese": "\u5929\u4fdd",
+        "Period": "Edo (Tokugawa)",
+        "Events": "1837 \u014cshio Heihachir\u014d leads riots in Osaka. 1841 Tenp\u014d Reforms begun by Mizuno Tadakuni.",
+        "Era_no_diacritics": "Tenpo"
+    },
+    "237": {
+        "Dates (CE)": "1844.12 - 1848.2",
+        "Start": "1844.12",
+        "End": " 1848.2",
+        "Era name": "K\u014dka",
+        "Japanese": "\u5f18\u5316",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Koka"
+    },
+    "238": {
+        "Dates (CE)": "1848.2 - 1854.11",
+        "Start": "1848.2 ",
+        "End": "1854.11",
+        "Era name": "Kaei",
+        "Japanese": "\u5609\u6c38",
+        "Period": "Edo (Tokugawa)",
+        "Events": "1853 Commodore Perry arrives at Uraga.",
+        "Era_no_diacritics": "Kaei"
+    },
+    "239": {
+        "Dates (CE)": "1854.11 - 1860.3",
+        "Start": "1854.11",
+        "End": " 1860.3",
+        "Era name": "Ansei",
+        "Japanese": "\u5b89\u653f",
+        "Period": "Edo (Tokugawa)",
+        "Events": "1858 Ii Naosuke forces approval of American treaty.",
+        "Era_no_diacritics": "Ansei"
+    },
+    "240": {
+        "Dates (CE)": "1860.3 - 1861.2",
+        "Start": "1860.3 ",
+        "End": " 1861.2",
+        "Era name": "Man'en",
+        "Japanese": "\u4e07\u5ef6",
+        "Period": "Edo (Tokugawa)",
+        "Events": "1860 Ii Naosuke assassinated.",
+        "Era_no_diacritics": "Man'en"
+    },
+    "241": {
+        "Dates (CE)": "1861.2 - 1864.2",
+        "Start": "1861.2 ",
+        "End": " 1864.2",
+        "Era name": "Bunky\u016b",
+        "Japanese": "\u6587\u4e45",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Bunkyu"
+    },
+    "242": {
+        "Dates (CE)": "1864.2 - 1865.4",
+        "Start": "1864.2 ",
+        "End": " 1865.4",
+        "Era name": "Genji",
+        "Japanese": "\u5143\u6cbb",
+        "Period": "Edo (Tokugawa)",
+        "Events": NaN,
+        "Era_no_diacritics": "Genji"
+    },
+    "243": {
+        "Dates (CE)": "1865.4 - 1868.9",
+        "Start": "1865.4 ",
+        "End": " 1868.9",
+        "Era name": "Kei\u014d",
+        "Japanese": "\u6176\u5fdc",
+        "Period": "Edo (Tokugawa)",
+        "Events": "1867 Tokugawa Yoshinobu relinquishes title as shogun.",
+        "Era_no_diacritics": "Keio"
+    },
+    "244": {
+        "Dates (CE)": "1868.9 - 1912.7",
+        "Start": "1868.9 ",
+        "End": " 1912.7",
+        "Era name": "Meiji",
+        "Japanese": "\u660e\u6cbb",
+        "Period": "Meiji",
+        "Events": "1868 Edo renamed Tokyo and designated capital; era names made to coincide with reign of emperor. 1872 Conscription and education ordinances enacted. 1873 Land taxes revised; signs prohibiting Christianity taken down. 1877 Satsuma Rebellion. 1884 Peerage created. 1885 Cabinet system established. 1889 Constitution promulgated; first national election held in 1890. 1894-95 Sino-Japanese War; annexation of Taiwan. 1904-05 Russo-Japanese War. 1910 Annexation of Korea.",
+        "Era_no_diacritics": "Meiji"
+    },
+    "245": {
+        "Dates (CE)": "1912.7 - 1926.12",
+        "Start": "1912.7 ",
+        "End": "1926.12",
+        "Era name": "Taish\u014d",
+        "Japanese": "\u5927\u6b63",
+        "Period": "Taisho",
+        "Events": "1914-1918 World War I. 1923 Great Kant\u014d Earthquake. 1926 Universal male suffrage (first election in 1928).",
+        "Era_no_diacritics": "Taisho"
+    },
+    "246": {
+        "Dates (CE)": "1926.12- 1989.1",
+        "Start": "1926.12",
+        "End": " 1989.1",
+        "Era name": "Sh\u014dwa",
+        "Japanese": "\u662d\u548c",
+        "Period": "Showa",
+        "Events": "1931 Manchurian Incident. 1933 Japan leaves League of Nations (effective 1935). 1941 Attack on Pearl Harbor. 1945 Atomic bombs dropped; end of World War II. 1951 Treaty of San Francisco signed 1955 Liberal Democratic Party achieves political dominance. 1964 Summer Olympics held in Tokyo; Shinkansen \"bullet train\" starts operation. 1972 Okinawa returned to Japan. 1973 First \"oil shock\" begins. 1978 Second \"oil shock\" begins.",
+        "Era_no_diacritics": "Showa"
+    },
+    "247": {
+        "Dates (CE)": "1989.1- 2019.4",
+        "Start": "1989.1",
+        "End": " 2019.4",
+        "Era name": "Heisei",
+        "Japanese": "\u5e73\u6210",
+        "Period": "Heisei",
+        "Events": "1990 Japanese economic bubble bursts; beginning of the \"Lost Decade.\" 1993 The Liberal Democratic Party (LDP) fails to win a majority in the House of Representatives; coalition cabinets formed beginning in 1994. 2009 The Democratic Party of Japan wins a majority of seats in the House of Representatives, marking the end of LDP parliamentary rule. 2011 The Great East Japan Earthquake (March 11). 2012 The LDP-K\u014dmeit\u014d coalition regains control of the House of Representatives in a landslide general-election victory. 2013 The Liberal Democratic Party cements its comeback with an overwhelming victory in the House of Councillors election. 2019 The Heisei Emperor (Akihito) abdicates on April 30.",
+        "Era_no_diacritics": "Heisei"
+    },
+    "248": {
+        "Dates (CE)": "2019.5 - 9999.99",
+        "Start": "2019.5",
+        "End": "9999.99",
+        "Era name": "Reiwa",
+        "Japanese": "\u4ee4\u548c",
+        "Period": "Reiwa",
+        "Events": "2019 Crown Prince Naruhito installed as emperor on May 1, becoming the first emperor in modern times to ascend the thrown while the previous emperor is still alive. 2021 The 2020 Tokyo Olympics open on July 23 after being delayed a year because of the coronavirus pandemic.",
+        "Era_no_diacritics": "Reiwa"
+    }
+}
