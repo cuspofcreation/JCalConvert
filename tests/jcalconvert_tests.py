@@ -1,7 +1,7 @@
 # tests/jcalconvert_tests.py
 
 from typer.testing import CliRunner
-from jcalconvert import __app_name__, __version__, cli
+from jcc import __app_name__, __version__, cli
 
 runner = CliRunner()
 

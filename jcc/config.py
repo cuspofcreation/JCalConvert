@@ -6,7 +6,7 @@ from pathlib import Path
 
 import typer
 
-from jcalconvert import (
+from jcc import (
     DB_READ_ERROR, DIR_ERROR, FILE_ERROR, SUCCESS, __app_name__
 )
 

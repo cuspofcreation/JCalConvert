@@ -1,7 +1,7 @@
 """jCalconvert entry point script"""
 # jcalconvert/__main__.py
 
-from jcalconvert import cli, __app_name__
+from jcc import cli, __app_name__
 
 def main():
     cli.app(prog_name = __app_name__)

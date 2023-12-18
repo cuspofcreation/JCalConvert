@@ -130,4 +130,6 @@ dmypy.json
 
 .DS_Store
 
+jcalconvert/utils/json_builder.ipynb
 json_builder.ipynb
+scratch.ipynb

@@ -3,8 +3,8 @@ from typing import Optional
 import typer
 import json
 
-from jcalconvert import __app_name__, __version__
-from jcalconvert.utils.utils import yearChecker, eraSearch, calConvert
+from jcc import __app_name__, __version__
+from jcc.utils.utils import yearChecker, eraSearch, calConvert
 
 app = typer.Typer()
 f = open('./data/calObj.json')

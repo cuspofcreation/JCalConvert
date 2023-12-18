@@ -1,8 +1,8 @@
 """Top-level package for jCalConvert"""
 # jcalconvert/__init__.py
 
-__app_name__ = "jcalconvert"
-__version__ = "0.0.1"
+__app_name__ = "jcc"
+__version__ = "0.1.0"
 
 (
     SUCCESS,
