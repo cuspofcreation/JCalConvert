@@ -4,7 +4,7 @@ import typer
 import json
 
 from jcalconvert import __app_name__, __version__
-from jcalconvert.utils.utils import yearChecker, eraLookup, calConvert
+from jcalconvert.utils.utils import yearChecker, eraSearch, calConvert
 
 app = typer.Typer()
 f = open('./data/calObj.json')
@@ -17,13 +17,12 @@ def _versionCallback(value: bool) -> None:
 
 @app.command("era", help="Lookup corresponding era details for Western or Japanese calendar year input")
 def eraLookup (
-    year: int | str, 
-    verbose: Optional[bool] = typer.Option(None, "--v", help="Give all era details"), 
+    year: str, 
+    verbose: Optional[bool] = typer.Option(None, "--v", "-v", help="Give all era details"), 
     ):
 
     yearChecker(year)
-    
-    res = eraLookup(j, year)
+    res = eraSearch(j, year)
 
     if (verbose):
         print(res)
@@ -32,11 +31,11 @@ def eraLookup (
 
 @app.command("convert", help="Convert Western calendar year to Japanese Imperial calendar, or Japanese Imperial calendar year to Western year")
 def convert(
-    year: int | str
+    year
     ):
 
     yearChecker(year)
-    calConvert(year)
+    print(calConvert(j, year))
 
 @app.callback()
 def main(
