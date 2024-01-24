@@ -11,7 +11,6 @@ import re
  
 def yearChecker(year):
 
-
     # if type(year) == int:
     if year.isdigit():
         year = int(year)
@@ -25,7 +24,7 @@ def yearChecker(year):
     elif type(year) == str:
 
         res = split_string_int(year)
-        
+         
         if res == "Please specify a valid year (str)":
             raise typer.BadParameter(res)
 
@@ -77,11 +76,11 @@ def calConvert(json, year):
             start_year = float(obj['Start'].split('.')[0])
             end_year = float(obj['End'].split('.')[0])
 
-        if start_year <= int(year) <= end_year:
-                era_name = obj['Era name']
-                start_year = float(obj['Start'])
-                era_year = int(year - start_year + 2)
-                return(f'{era_name} {era_year}')        
+            if start_year <= int(year) <= end_year:
+                    era_name = obj['Era name']
+                    start_year = float(obj['Start'])
+                    era_year = int(year) - int(start_year) + 1
+                    return(f'{era_name} {era_year}')        
 
     else:
         input_split = split_string_int(year)
