@@ -89,6 +89,7 @@ def calConvert(json, year):
 
     else:
         input_split = split_string_int(year)
+        resultMatrix = []
 
         for key, obj in json.items():
             if (
@@ -101,6 +102,6 @@ def calConvert(json, year):
                 searchResult.append(obj["Japanese"])
                 searchResult.append(obj["Era name"])
                 searchResult.append(int(start_year) + input_split["year"] - 1)
-                print(searchResult)
+                resultMatrix.append(searchResult)
 
-    return
+    return resultMatrix
