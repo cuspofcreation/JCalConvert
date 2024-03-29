@@ -3,12 +3,6 @@ import json
 import typer
 import re
 
-# f = open('./data/calObj.json')
-# j = json.load(f)
-
-# Determines whether input year is a number (Western calendar) or string (Japanese calendar input),
-# providing relevant logic.
-
 
 def yearChecker(year):
 

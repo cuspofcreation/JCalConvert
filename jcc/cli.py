@@ -3,6 +3,8 @@ from typing import Optional
 import typer
 import json
 
+from rich import print, print_json
+
 from jcc import __app_name__, __version__
 from jcc.utils.utils import yearChecker, eraSearch, calConvert
 
@@ -32,7 +34,14 @@ def eraLookup(
     res = eraSearch(j, year)
 
     if verbose:
-        print(res)
+
+        printResult = {}
+        for key, value in res.items():
+            if key != "Era_no_diacritics":
+                printResult[key] = value
+                json.dumps(printResult)
+
+        print(printResult)
     else:
         print(res["Era name"])
 
