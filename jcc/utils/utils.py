@@ -62,7 +62,7 @@ def eraSearch(json, year):
 
     else:
         input_split = split_string_int(year)
-        print(input_split)
+        # print(input_split)
 
         for key, obj in json.items():
 
@@ -95,5 +95,12 @@ def calConvert(json, year):
                 input_split["era"] == obj["Japanese"]
                 or input_split["era"] == obj["Era_no_diacritics"]
             ):
+                searchResult = []
                 start_year = float(obj["Start"])
-                return int(start_year) + input_split["year"] - 1
+
+                searchResult.append(obj["Japanese"])
+                searchResult.append(obj["Era name"])
+                searchResult.append(int(start_year) + input_split["year"] - 1)
+                print(searchResult)
+
+    return
