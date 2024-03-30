@@ -17,29 +17,26 @@ def yearChecker(year):
         elif year < 645:
             raise typer.BadParameter("Data only available from 645 CE")
 
-    elif type(year) == str:
 
-        res = split_string_int(year)
+def isKanji(inputString):
 
-        if res == "Please specify a valid year":
-            raise typer.BadParameter(res)
-
+    # Checks whether inputString is only kanji characters
+    if re.fullmatch(r"^[\u4e00-\u9fff]+$", inputString):
+        return True
     else:
-        raise typer.BadParameter(
-            "Please input a valid Western calendar year or Japanese Imperial Calendar year"
-        )
+        return False
 
 
 # Splits Japanese calendar inputs into an era string and a year string
-def split_string_int(input_string: str):
+def split_string_int(inputString: str):
 
-    if type(input_string) != str:
+    if type(inputString) != str:
         return "Please specify a valid year"
 
-    match = re.match(r"([^\d]+)(\d+)", input_string)
+    match = re.match(r"([^\d]+)(\d+)", inputString)
 
     if not match:
-        match = re.match(r"(\D+)(\d+)", input_string)
+        match = re.match(r"(\D+)(\d+)", inputString)
 
     if match:
         return {"era": match.group(1), "year": int(int(match.group(2)))}
@@ -61,16 +58,24 @@ def eraSearch(json, year):
                 return obj
 
     else:
-        input_split = split_string_int(year)
-        # print(input_split)
 
-        for key, obj in json.items():
+        if not (re.search(r"\d", year)):
 
-            if (
-                input_split["era"] == obj["Japanese"]
-                or input_split["era"] == obj["Era_no_diacritics"]
-            ):
-                return obj
+            for key, obj in json.items():
+                if year == obj["Japanese"] or year == obj["Era_no_diacritics"]:
+                    return obj
+
+        else:
+
+            input_split = split_string_int(year)
+
+            for key, obj in json.items():
+
+                if (
+                    input_split["era"] == obj["Japanese"]
+                    or input_split["era"] == obj["Era_no_diacritics"]
+                ):
+                    return obj
 
 
 # Take in a date string in the form either, e.g., 平成21 or Heisei 21

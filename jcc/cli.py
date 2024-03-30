@@ -6,7 +6,7 @@ import json
 from rich import print, print_json
 
 from jcc import __app_name__, __version__
-from jcc.utils.utils import yearChecker, eraSearch, calConvert
+from jcc.utils.utils import yearChecker, eraSearch, calConvert, isKanji
 
 app = typer.Typer()
 f = open("./data/calObj.json")
@@ -21,7 +21,7 @@ def _versionCallback(value: bool) -> None:
 
 @app.command(
     "era",
-    help="Lookup corresponding era details for Western or Japanese calendar year input",
+    help="Convert Japanese era name to romaji. Verbose mode provides full details of that era",
 )
 def eraLookup(
     year: str,
@@ -30,20 +30,23 @@ def eraLookup(
     ),
 ):
 
-    yearChecker(year)
-    res = eraSearch(j, year)
+    # yearChecker(year)
+    if isKanji(year):
+        res = eraSearch(j, year)
 
-    if verbose:
+        if verbose:
 
-        printResult = {}
-        for key, value in res.items():
-            if key != "Era_no_diacritics":
-                printResult[key] = value
-                json.dumps(printResult)
+            printResult = {}
+            for key, value in res.items():
+                if key != "Era_no_diacritics":
+                    printResult[key] = value
+                    json.dumps(printResult)
 
-        print(printResult)
+            print(printResult)
+        else:
+            print(res["Era name"])
     else:
-        print(res["Era name"])
+        print("Please enter the era in kanji. Do not specify a year")
 
 
 @app.command(
