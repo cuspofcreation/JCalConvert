@@ -53,18 +53,9 @@ python -m jcc convert Heisei21
 
 ## Development
 
-1. Create a virtual environment:
+1. Fork, clone, install dependencies. All set!
 
-```
-python -m venv venv
-source venv/bin/activate
-```
-
-2. Install the required dependencies:
-
-```pip install -r requirements.txt ```
-
-3. Run tests:
+2. Run tests using:
 
 ```pytest```
 
