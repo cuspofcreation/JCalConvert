@@ -1,7 +1,6 @@
 from jcc.utils.utils import yearChecker, splitStringInt, eraSearch
 import datetime
 import pytest
-import json
 
 
 # Test yearChecker
