@@ -3,7 +3,8 @@ from typing import Optional
 import typer
 import json
 
-from rich import print, print_json
+from rich import print
+from jcc.console import console
 
 from jcc import __app_name__, __version__
 from jcc.utils.utils import yearChecker, eraSearch, calConvert, isKanji
@@ -32,6 +33,7 @@ def eraLookup(
 
     # yearChecker(year)
     if isKanji(year):
+
         res = eraSearch(j, year)
 
         if verbose:
@@ -56,7 +58,7 @@ def eraLookup(
 def convert(year):
 
     yearChecker(year)
-    print(calConvert(j, year))
+    console.print(calConvert(j, year))
 
 
 @app.callback()

@@ -3,6 +3,9 @@ import json
 import typer
 import re
 
+from rich.console import Console
+from rich.table import Table
+
 
 def yearChecker(year):
 
@@ -81,6 +84,7 @@ def eraSearch(json, year):
 # Take in a date string in the form either, e.g., 平成21 or Heisei 21
 def calConvert(json, year):
 
+    # Handle Western calendar input
     if year.isdigit():
         for key, obj in json.items():
             start_year = float(obj["Start"].split(".")[0])
@@ -92,6 +96,7 @@ def calConvert(json, year):
                 era_year = int(year) - int(start_year) + 1
                 return f"{era_name} {era_year}"
 
+    # Handle Japanese calendar input
     else:
         input_split = split_string_int(year)
         resultMatrix = []
@@ -106,7 +111,17 @@ def calConvert(json, year):
 
                 searchResult.append(obj["Japanese"])
                 searchResult.append(obj["Era name"])
-                searchResult.append(int(start_year) + input_split["year"] - 1)
+                searchResult.append(str(int(start_year) + input_split["year"] - 1))
                 resultMatrix.append(searchResult)
 
-    return resultMatrix
+    resultTable = Table(show_header=True, header_style="bold")
+    resultTable.add_column("Era")
+    resultTable.add_column("Romaji")
+    resultTable.add_column("Gregorian")
+
+    print(resultMatrix)
+
+    for row in resultMatrix:
+        resultTable.add_row(*row)
+
+    return resultTable
