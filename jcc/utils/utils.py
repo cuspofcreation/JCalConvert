@@ -193,11 +193,21 @@ def calConvert(json, year):
                 or input_split["era"] == obj["Era_no_diacritics"]
             ):
                 start_year = float(obj["Start"])
+                end_year = float(obj["End"])
+                print(str(end_year))
+                convertedYear = int(start_year) + input_split["year"] - 1
+
+                if convertedYear > int(end_year):
+                    eraName = obj["Era name"]
+                    eraFinalYearImperial = int(end_year) - int(start_year) + 1
+                    convertedYear = f"The last year of the {eraName} era was {int(end_year)}, {eraName} {eraFinalYearImperial}"
+
+                # Check whether convertedYear exceeds the final year of the era
 
                 searchResult = [
                     obj["Japanese"],
                     obj["Era name"],
-                    str(int(start_year) + input_split["year"] - 1),
+                    str(convertedYear),
                 ]
 
                 resultMatrix.append(searchResult)
