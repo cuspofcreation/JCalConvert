@@ -3,91 +3,216 @@ import json
 import typer
 import re
 
-# f = open('./data/calObj.json')
-# j = json.load(f)
+from rich.table import Table
+from jcc.console import console
 
-# Determines whether input year is a number (Western calendar) or string (Japanese calendar input), 
-# providing relevant logic.
- 
+
+# Ensures year is not in the future, nor before 645CE
+class InvalidYearError(Exception):
+    pass
+
+
 def yearChecker(year):
 
-
     # if type(year) == int:
     if year.isdigit():
         year = int(year)
-    # Handle edge cases
+
+        # Handle edge cases: Prevent out-of-bounds dates
         if year > datetime.date.today().year:
-            raise typer.BadParameter("Please specify a valid year")
-        
+            raise InvalidYearError("Please specify a valid year")
+
         elif year < 645:
-            raise typer.BadParameter("Data only available from 645 CE")
-        
-    elif type(year) == str:
+            raise InvalidYearError("Data only available from 645 CE")
 
-        res = split_string_int(year)
-        
-        if res == "Please specify a valid year (str)":
-            raise typer.BadParameter(res)
-
-    else:
-        raise typer.BadParameter("Please input a valid Western calendar year or Japanese Imperial Calendar year")
 
 # Splits Japanese calendar inputs into an era string and a year string
-def split_string_int(input_string: str):
+def splitStringInt(inputString: str):
 
-    if type(input_string) != str:
-        return ("Please specify a valid year")
-    match = re.match(r'([^\d]+)(\d+)', input_string)
-    if not match:
-        match = re.match(r'(\D+)(\d+)', input_string)
+    if not isinstance(inputString, str):
+        return "Please specify a valid year"
+
+    match = re.match(r"(\D+)(\d+)", inputString)
     if match:
-        return { 'era': match.group(1), 'year': int(int(match.group(2))) }
+        return {"era": match.group(1), "year": int(match.group(2))}
     else:
-        return ("Please specify a valid year")
+        return "Please specify a valid year"
 
-# Retrieves the corresponding era object for a given Western or Japanese Imperial calendar year.
-def eraSearch(json, year):
 
-    # if type(year) == int:
-    # if (int(year)):
+# Helper function to construct table for eraSearch
+def tableBuilder(verbose):
+
+    resultTable = Table(show_header=True, header_style="bold", show_lines=True)
+
+    # Would love a smarter way to do this
+    if verbose:
+        colNames = [
+            "Dates (CE)",
+            "Start",
+            "End",
+            "Era name",
+            "Japanese",
+            "Period",
+            "Events",
+        ]
+
+        for name in colNames:
+            resultTable.add_column(name)
+
+    else:
+        colNames = ["Era", "Romaji"]
+
+        for name in colNames:
+            resultTable.add_column(name)
+
+    return resultTable
+
+
+# Returns a rich table with either the era name or full era details for a given Western or Japanese Imperial calendar year.
+def eraSearch(json, year, verbose):
+
+    resultTable = tableBuilder(verbose)
+
+    # Potentially redundant, but retained since its use in verbose mode provides information not covered by calConvert
     if year.isdigit():
         year = int(year)
+        console.print("Did you mean to use the convert function?")
+
         for key, obj in json.items():
-            start_year = float(obj['Start'].split('.')[0])
-            end_year = float(obj['End'].split('.')[0])
+            start_year = float(obj["Start"].split(".")[0])
+            end_year = float(obj["End"].split(".")[0])
 
             if start_year <= int(year) <= end_year:
-                return obj
-            
+
+                # Create a new dictionary without the "Era_no_diacritics" key
+                filtered_obj = {
+                    k: v for k, v in obj.items() if k != "Era_no_diacritics"
+                }
+
+                if verbose:
+                    # Add row to table
+                    resultTable.add_row(
+                        *[str(filtered_obj[col]) for col in filtered_obj]
+                    )
+                else:
+                    resultTable.add_row(
+                        filtered_obj["Japanese"], filtered_obj["Era name"]
+                    )
+
+        return resultTable
+
     else:
-        input_split = split_string_int(year)
-        print(input_split)
+        if not (re.search(r"\d", year)):
 
-        for key, obj in json.items():
+            for key, obj in json.items():
 
-            if input_split['era'] == obj['Japanese'] or input_split['era'] == obj['Era_no_diacritics']:
-                return obj
-            
-        
+                if year == obj["Japanese"] or year == obj["Era_no_diacritics"]:
+                    # Create a new dictionary without the "Era_no_diacritics" key
+                    filtered_obj = {
+                        k: v for k, v in obj.items() if k != "Era_no_diacritics"
+                    }
+
+                    if verbose:
+                        # Add row(s) to table
+                        resultTable.add_row(
+                            *[str(filtered_obj[col]) for col in filtered_obj]
+                        )
+
+                    else:
+                        resultTable.add_row(
+                            filtered_obj["Japanese"], filtered_obj["Era name"]
+                        )
+
+            return resultTable
+
+        else:
+
+            input_split = splitStringInt(year)
+
+            for key, obj in json.items():
+                if (
+                    input_split["era"] == obj["Japanese"]
+                    or input_split["era"] == obj["Era_no_diacritics"]
+                ):
+                    # Create a new dictionary without the "Era_no_diacritics" key
+                    filtered_obj = {
+                        k: v for k, v in obj.items() if k != "Era_no_diacritics"
+                    }
+                    if verbose:
+                        # Add row(s) to table
+                        resultTable.add_row(
+                            *[str(filtered_obj[col]) for col in filtered_obj]
+                        )
+                    else:
+                        resultTable.add_row(
+                            filtered_obj["Japanese"], filtered_obj["Era name"]
+                        )
+
+        return resultTable
+
+
 # Take in a date string in the form either, e.g., 平成21 or Heisei 21
 def calConvert(json, year):
 
+    yearChecker(year)
+
+    resultTable = Table(show_header=True, header_style="bold")
+    resultTable.add_column("Era")
+    resultTable.add_column("Romaji")
+
+    # Handle Western calendar input
     if year.isdigit():
+
+        resultTable.add_column("Imperial_Year")
+
         for key, obj in json.items():
-            start_year = float(obj['Start'].split('.')[0])
-            end_year = float(obj['End'].split('.')[0])
+            start_year = float(obj["Start"].split(".")[0])
+            end_year = float(obj["End"].split(".")[0])
 
-        if start_year <= int(year) <= end_year:
-                era_name = obj['Era name']
-                start_year = float(obj['Start'])
-                era_year = int(year - start_year + 2)
-                return(f'{era_name} {era_year}')        
+            if start_year <= int(year) <= end_year:
+                start_year = float(obj["Start"])
 
+                searchResult = [
+                    obj["Japanese"],
+                    obj["Era name"],
+                    str(int(year) - int(start_year) + 1),
+                ]
+
+                resultTable.add_row(*searchResult)
+                return resultTable
+
+    # Handle Japanese calendar input
     else:
-        input_split = split_string_int(year)
+        input_split = splitStringInt(year)
+        resultTable.add_column("Gregorian_Year")
+        resultMatrix = []
 
         for key, obj in json.items():
-            if input_split['era'] == obj['Japanese'] or input_split['era'] == obj['Era_no_diacritics']:
-                start_year = float(obj['Start'])
-                return (int(start_year) + input_split['year'] - 1)
+            if (
+                input_split["era"] == obj["Japanese"]
+                or input_split["era"] == obj["Era_no_diacritics"]
+            ):
+                start_year = float(obj["Start"])
+                end_year = float(obj["End"])
+                convertedYear = int(start_year) + input_split["year"] - 1
 
+                # Check whether calendar conversion is in bounds., i.e. does not exceed the final year of that emperor's reign.
+                if convertedYear > int(end_year):
+                    eraName = obj["Era name"]
+                    eraFinalYearImperial = int(end_year) - int(start_year) + 1
+                    convertedYear = f"The last year of the {eraName} era was {int(end_year)}, {eraName} {eraFinalYearImperial}"
+
+                # Check whether convertedYear exceeds the final year of the era
+
+                searchResult = [
+                    obj["Japanese"],
+                    obj["Era name"],
+                    str(convertedYear),
+                ]
+
+                resultMatrix.append(searchResult)
+
+        for row in resultMatrix:
+            resultTable.add_row(*row)
+
+    return resultTable
