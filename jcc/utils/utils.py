@@ -27,25 +27,20 @@ def yearChecker(year):
 
 
 # Splits Japanese calendar inputs into an era string and a year string
-def split_string_int(inputString: str):
+def splitStringInt(inputString: str):
 
     if not isinstance(inputString, str):
         return "Please specify a valid year"
 
-    match = re.match(r"([^\d]+)(\d+)", inputString)
-
-    if not match:
-        match = re.match(r"(\D+)(\d+)", inputString)
-
+    match = re.match(r"(\D+)(\d+)", inputString)
     if match:
-        return {"era": match.group(1), "year": int(int(match.group(2)))}
-
+        return {"era": match.group(1), "year": int(match.group(2))}
     else:
         return "Please specify a valid year"
 
 
-# Returns a rich table with either the era name or full era details for a given Western or Japanese Imperial calendar year.
-def eraSearch(json, year, verbose):
+# Helper function to construct table for eraSearch
+def tableBuilder(verbose):
 
     resultTable = Table(show_header=True, header_style="bold", show_lines=True)
 
@@ -69,6 +64,14 @@ def eraSearch(json, year, verbose):
 
         for name in colNames:
             resultTable.add_column(name)
+
+    return resultTable
+
+
+# Returns a rich table with either the era name or full era details for a given Western or Japanese Imperial calendar year.
+def eraSearch(json, year, verbose):
+
+    resultTable = tableBuilder(verbose)
 
     # Potentially redundant, but retained since its use in verbose mode provides information not covered by calConvert
     if year.isdigit():
@@ -124,7 +127,7 @@ def eraSearch(json, year, verbose):
 
         else:
 
-            input_split = split_string_int(year)
+            input_split = splitStringInt(year)
 
             for key, obj in json.items():
                 if (
@@ -180,7 +183,7 @@ def calConvert(json, year):
 
     # Handle Japanese calendar input
     else:
-        input_split = split_string_int(year)
+        input_split = splitStringInt(year)
         resultTable.add_column("Gregorian_Year")
         resultMatrix = []
 
