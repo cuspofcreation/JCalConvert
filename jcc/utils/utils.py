@@ -8,6 +8,10 @@ from jcc.console import console
 
 
 # Ensures year is not in the future, nor before 645CE
+class InvalidYearError(Exception):
+    pass
+
+
 def yearChecker(year):
 
     # if type(year) == int:
@@ -16,16 +20,16 @@ def yearChecker(year):
 
         # Handle edge cases: Prevent out-of-bounds dates
         if year > datetime.date.today().year:
-            raise typer.BadParameter("Please specify a valid year")
+            raise InvalidYearError("Please specify a valid year")
 
         elif year < 645:
-            raise typer.BadParameter("Data only available from 645 CE")
+            raise InvalidYearError("Data only available from 645 CE")
 
 
 # Splits Japanese calendar inputs into an era string and a year string
 def split_string_int(inputString: str):
 
-    if type(inputString) != str:
+    if not isinstance(inputString, str):
         return "Please specify a valid year"
 
     match = re.match(r"([^\d]+)(\d+)", inputString)
