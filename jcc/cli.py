@@ -30,25 +30,7 @@ def eraLookup(
         None, "--v", "-v", help="Give all era details"
     ),
 ):
-
-    # yearChecker(year)
-    if isKanji(year):
-
-        res = eraSearch(j, year)
-
-        if verbose:
-
-            printResult = {}
-            for key, value in res.items():
-                if key != "Era_no_diacritics":
-                    printResult[key] = value
-                    json.dumps(printResult)
-
-            print(printResult)
-        else:
-            print(res["Era name"])
-    else:
-        print("Please enter the era in kanji. Do not specify a year")
+    console.print(eraSearch(j, year, verbose))
 
 
 @app.command(
