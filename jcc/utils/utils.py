@@ -22,15 +22,6 @@ def yearChecker(year):
             raise typer.BadParameter("Data only available from 645 CE")
 
 
-# Checks whether inputString is only kanji characters
-def isKanji(inputString):
-
-    if re.fullmatch(r"^[\u4e00-\u9fff]+$", inputString):
-        return True
-    else:
-        return False
-
-
 # Splits Japanese calendar inputs into an era string and a year string
 def split_string_int(inputString: str):
 
@@ -155,6 +146,8 @@ def eraSearch(json, year, verbose):
 
 # Take in a date string in the form either, e.g., 平成21 or Heisei 21
 def calConvert(json, year):
+
+    yearChecker(year)
 
     resultTable = Table(show_header=True, header_style="bold")
     resultTable.add_column("Era")

@@ -3,7 +3,7 @@ from typing import Optional
 import typer
 import json
 
-from rich import print
+# from rich import print
 from jcc.console import console
 
 from jcc import __app_name__, __version__
@@ -39,7 +39,6 @@ def eraLookup(
 )
 def convert(year):
 
-    yearChecker(year)
     console.print(calConvert(j, year))
 
 
