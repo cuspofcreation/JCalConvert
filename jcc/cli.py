@@ -7,7 +7,7 @@ import json
 from jcc.console import console
 
 from jcc import __app_name__, __version__
-from jcc.utils.utils import yearChecker, eraSearch, calConvert, isKanji
+from jcc.utils.utils import yearChecker, eraSearch, calConvert
 
 app = typer.Typer()
 f = open("./data/calObj.json")
