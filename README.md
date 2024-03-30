@@ -36,24 +36,29 @@ JCalConvert is a command-line tool that allows you to convert between the Wester
 
 - `era`: Convert a Japanese era name to its romaji equivalent and display the era details. Do not include spaces
 
-```python -m jcc era "Heisei```
-```python -m jcc era "平成```
-```python -m jcc era Heisei21 --v```
-```python -m jcc era 平成21 --v```
-
+```
+python -m jcc era Heisei
+python -m jcc era 平成
+python -m jcc era -v Heisei21 
+python -m jcc era -v 平成21
+```
 
 - `convert`: Convert a Western calendar year to the corresponding Japanese Imperial calendar year, or vice versa. Do not include spaces 
 
-```python -m jcc convert 2023```
-```python -m jcc convert 平成21```
-```python -m jcc convert "Heisei21"```
+```
+python -m jcc convert 2023
+python -m jcc convert 平成21
+python -m jcc convert Heisei21
+```
 
 ## Development
 
 1. Create a virtual environment:
 
-```python -m venv venv```
-```source venv/bin/activate```
+```
+python -m venv venv
+source venv/bin/activate
+```
 
 2. Install the required dependencies:
 
@@ -76,4 +81,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-This project is licensed under the [MIT License].
+This project is licensed under the MIT License.
