@@ -12,7 +12,7 @@ JCalConvert is a command-line tool that allows you to convert between the Wester
 
 1. Clone the repository:
 
-```git clone https://github.com/your-username/jcc.git```
+```git clone https://github.com/cuspofcreation/jcc.git```
 
 
 2. Change to the project directory:
@@ -34,15 +34,19 @@ JCalConvert is a command-line tool that allows you to convert between the Wester
 
 2. Use the available commands:
 
-- `era`: Convert a Japanese era name to its romaji equivalent and display the era details.
+- `era`: Convert a Japanese era name to its romaji equivalent and display the era details. Do not include spaces
 
 ```python -m jcc era "Heisei```
-```python -m jcc era "Heisei 21" --v```
+```python -m jcc era "平成```
+```python -m jcc era Heisei21 --v```
+```python -m jcc era 平成21 --v```
 
-- `convert`: Convert a Western calendar year to the corresponding Japanese Imperial calendar year, or vice versa.
+
+- `convert`: Convert a Western calendar year to the corresponding Japanese Imperial calendar year, or vice versa. Do not include spaces 
 
 ```python -m jcc convert 2023```
-```python -m jcc convert "Heisei 21"```
+```python -m jcc convert 平成21```
+```python -m jcc convert "Heisei21"```
 
 ## Development
 
@@ -58,6 +62,13 @@ JCalConvert is a command-line tool that allows you to convert between the Wester
 3. Run tests:
 
 ```pytest```
+
+
+## Roadmap
+
+1. Allow for the use of spaces, e.g., jcc convert "Heisei 21"
+2. Implement batch conversion feature to handle multiple dates simultaneously
+3. Expand unit tests to include testing of Rich tableout
 
 ## Contributing
 
