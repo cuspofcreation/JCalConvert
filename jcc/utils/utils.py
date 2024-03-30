@@ -194,9 +194,9 @@ def calConvert(json, year):
             ):
                 start_year = float(obj["Start"])
                 end_year = float(obj["End"])
-                print(str(end_year))
                 convertedYear = int(start_year) + input_split["year"] - 1
 
+                # Check whether calendar conversion is in bounds., i.e. does not exceed the final year of that emperor's reign.
                 if convertedYear > int(end_year):
                     eraName = obj["Era name"]
                     eraFinalYearImperial = int(end_year) - int(start_year) + 1
