@@ -84,8 +84,15 @@ def eraSearch(json, year):
 # Take in a date string in the form either, e.g., 平成21 or Heisei 21
 def calConvert(json, year):
 
+    resultTable = Table(show_header=True, header_style="bold")
+    resultTable.add_column("Era")
+    resultTable.add_column("Romaji")
+
     # Handle Western calendar input
     if year.isdigit():
+
+        resultTable.add_column("Imperial_Year")
+
         for key, obj in json.items():
             start_year = float(obj["Start"].split(".")[0])
             end_year = float(obj["End"].split(".")[0])
@@ -93,12 +100,21 @@ def calConvert(json, year):
             if start_year <= int(year) <= end_year:
                 era_name = obj["Era name"]
                 start_year = float(obj["Start"])
-                era_year = int(year) - int(start_year) + 1
-                return f"{era_name} {era_year}"
+                # era_year = int(year) - int(start_year) + 1
+
+                searchResult = [
+                    obj["Japanese"],
+                    obj["Era name"],
+                    str(int(year) - int(start_year) + 1),
+                ]
+
+                resultTable.add_row(*searchResult)
+                return resultTable
 
     # Handle Japanese calendar input
     else:
         input_split = split_string_int(year)
+        resultTable.add_column("Gregorian_Year")
         resultMatrix = []
 
         for key, obj in json.items():
@@ -106,22 +122,17 @@ def calConvert(json, year):
                 input_split["era"] == obj["Japanese"]
                 or input_split["era"] == obj["Era_no_diacritics"]
             ):
-                searchResult = []
                 start_year = float(obj["Start"])
 
-                searchResult.append(obj["Japanese"])
-                searchResult.append(obj["Era name"])
-                searchResult.append(str(int(start_year) + input_split["year"] - 1))
+                searchResult = [
+                    obj["Japanese"],
+                    obj["Era name"],
+                    str(int(start_year) + input_split["year"] - 1),
+                ]
+
                 resultMatrix.append(searchResult)
 
-    resultTable = Table(show_header=True, header_style="bold")
-    resultTable.add_column("Era")
-    resultTable.add_column("Romaji")
-    resultTable.add_column("Gregorian")
-
-    print(resultMatrix)
-
-    for row in resultMatrix:
-        resultTable.add_row(*row)
+        for row in resultMatrix:
+            resultTable.add_row(*row)
 
     return resultTable
